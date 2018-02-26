@@ -1,0 +1,298 @@
+body {
+  font: 12px/1.5 arial, tahoma, 宋体;
+  background: #f8f8f8;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+#top {
+  width: 990px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+#top .a1 {
+  display: block;
+  float: left;
+}
+#top .sp1 {
+  display: block;
+  float: left;
+  margin: 38px 0 0 10px;
+  height: 17px;
+  width: 89px;
+  background: url(../images/regLogo.png);
+}
+#top p {
+  text-align: right;
+  padding: 0 0 5px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  font-family: "microsoft yahei";
+}
+#top p a {
+  color: #2272c8;
+  height: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+#top p a:hover {
+  border-bottom: 1px solid #2272c8;
+}
+#navall {
+  padding: 0 10px;
+  width: 990px;
+  height: 646px;
+  background: #fff;
+  margin: 0 auto;
+}
+#navall #main {
+  position: relative;
+  margin: 0 auto;
+  width: 440px;
+  min-height: 460px;
+  overflow: hidden;
+  padding: 0;
+}
+#navall #main .son {
+  width: 440px;
+  margin-top: 60px;
+}
+#navall #main .son .reg-text {
+  position: relative;
+  height: 38px;
+  border: solid 1px #ddd;
+  background: #fff;
+}
+#navall #main .son .reg-text i {
+  display: inline-block;
+  float: left;
+  width: 34px;
+  height: 40px;
+  background: url(../images/input-icon.png) no-repeat;
+  background-position: 0 -153px !important;
+}
+#navall #main .son .reg-text input {
+  float: left;
+  padding: 10px 5px;
+  width: 370px;
+  height: 18px;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  font-family: "microsoft yahei";
+  border: 0;
+}
+#navall #main .son .son1 {
+  width: 440px;
+  height: 42px;
+  margin-top: 30px;
+  position: relative;
+  background: url(../images/slide-new.png);
+  background-position: -13px -11px;
+}
+#navall #main .son .son2{
+  width: 438px;
+  height: 42px;
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+#navall #main .son .son2 span{
+  font: 14px/150% Arial,Verdana,"\5b8b\4f53";
+  color: #666;
+  display: block;
+  height: 42px;
+  width: 100px;
+  line-height: 42px;
+  text-align: center;
+  float: left;
+}
+#navall #main .son .son2 input{
+  display: block;
+  height: 42px;
+  width: 330px;
+  float: left;
+  border: none;
+}
+#navall #main .son .son2 input.code{
+  width: 150px;
+}
+#navall #main .son .son2 .img{
+  cursor: pointer;
+}
+#navall #main .son .son1 .left {
+  height: 42px;
+  width: 42px;
+  background: url(../images/slide-new.png);
+  background-position: -28px -200px;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#navall #main .son .son1 span {
+  display: block;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+  color: #999;
+  width: 440px;
+  line-height: 42px;
+  text-align: center;
+}
+#navall #main .son .auto {
+  margin-top: 30px;
+  height: 16px;
+  color: #666;
+}
+#navall #main .son .auto a {
+  color: #08C;
+}
+#navall #main .son .auto a:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+#navall #main .son .auto input {
+  float: left;
+  margin-top: 2px;
+}
+#navall #main .son .agree {
+  width: 440px;
+  height: 40px;
+  margin-top: 30px;
+}
+#navall #main .son .agree a {
+  display: block;
+  padding: 9px 0;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  font-weight: 700;
+  color: #fff;
+  background: #ff9c00;
+  border: solid 1px #f88600;
+  text-decoration: none;
+}
+#navall #main .son .agree input{
+  display: block;
+  width: 440px;
+  height: 40px;
+  padding: 9px 0;
+  line-height: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  font-weight: 700;
+  color: #fff;
+  background: #ff9c00;
+  border: solid 1px #f88600;
+  text-decoration: none;
+}
+#navall #main .son .agree input:hover{
+  background: #F8B500;
+}
+#navall #main .son .agree a:hover {
+  background: #F8B500;
+}
+#navall #main .son .user {
+  margin-top: 10px;
+}
+#navall #main .son .user a {
+  color: #333;
+}
+#navall #main .son .user a:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+#nav {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 880px;
+  height: 35px;
+  font: 18px "Microsoft YaHei";
+  border-bottom: 1px solid #ccc;
+}
+#nav ul {
+  width: 500px;
+  height: 36px;
+  color: #666;
+  margin: 0 auto;
+}
+#nav ul li {
+  list-style: none;
+  position: relative;
+  float: left;
+  padding: 0 15px 0;
+  line-height: 34px;
+  margin-right: 19px;
+}
+#nav ul li i {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  bottom: 1px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  margin-right: 4px;
+}
+#nav ul li .i1 {
+  background: url(../images/cop-bg.png) -64px 0 no-repeat;
+}
+#nav ul li .i2 {
+  background: url(../images/cop-bg.png) -40px -24px no-repeat;
+}
+#nav ul li .i3 {
+  background: url(../images/cop-bg.png) -40px -48px no-repeat;
+}
+#nav ul li.current {
+  color: #fa0;
+  line-height: 34px;
+  border-bottom: 2px solid #fa0;
+}
+#footer {
+  padding-top: 15px;
+}
+#footer .footer3 .footer3_con p {
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+#footer .footer3 .footer3_con p a {
+  color: #666666;
+  font-family: "Microsoft Yahei";
+}
+#footer .footer3 .footer3_con p a:hover {
+  color: #f60;
+}
+#footer .footer3 .footer3_con p span {
+  color: #888;
+  padding: 0 8px;
+}
+#footer .footer3 .footer3_con .p2 {
+  margin-top: 5px;
+  color: #999;
+}
+#footer .footer3 .footer3_con .p2 a {
+  color: #999;
+}
+#footer .footer3 .footer3_con .p2 a:hover {
+  color: #999;
+}
+#footer .footer3 .footer3_con .footer3_img {
+  margin-top: 5px;
+  text-align: center;
+}
+#footer .footer3 .footer3_con .footer3_img a {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=reg.css.map */

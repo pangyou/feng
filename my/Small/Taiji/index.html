@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>太极圆 和 window图标</title>
+		<style type="text/css">
+		/*太极图*/
+			#main-yuan1{
+				width: 200px;
+				height: 400px;
+				position: absolute;
+				top: 100px;
+				left: 150px;
+				background-color: black;
+				border-radius: 200px 0px 0px 200px;
+			}
+			#main-yuan2{
+				width: 200px;
+				height: 400px;
+				position: absolute;
+				top: 100px;
+				left: 350px;
+				background-color: white;
+				border-radius: 0px 200px 200px 0px;
+			}
+			#yuan1{
+				width: 100px;
+				height: 200px;
+				position: absolute;
+				top: 100px;
+				left: 250px;
+				background-color: white;
+				border-radius: 100px 0px 0px 100px;
+			}
+			#yuan2{
+				width: 100px;
+				height: 200px;
+				position: absolute;
+				top: 300px;
+				left: 350px;
+				background-color: black;
+				border-radius: 0px 100px 100px 0px;
+			}
+			#hei{
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				top: 155px;
+				left:325px;
+				background-color:black;
+				border-radius: 50% 50% 50% 50%;
+			}
+			#bai{
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				top: 375px;
+				left:325px;
+				background-color:white;
+				border-radius: 50% 50% 50% 50%;
+			}
+
+
+
+			/*windows图标*/
+			#a1{
+				width: 65px;
+				height: 20px;
+				background: #F95F1F;
+				border-radius: 500% 0% 0% 0%;
+				position:absolute;
+				left:800px;
+				top:185px
+			}
+			#b1{
+				width: 65px;
+				height: 20px;
+				background: #F95F1F;
+				border-radius: 0% 500% 0% 0%;
+				position:absolute;
+				left:865px;
+				top:185px
+			}
+			#c1{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 200px;
+				left:770px;
+				border-top: 50px solid #A5A3A3;
+				border-right: 15px solid #F95F1F;
+				border-bottom: 50px solid #F95F1F;
+				border-left: 15px solid #A5A3A3;
+			}
+			#d1{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				top: 200px;
+				left:800px;
+				background-color: #F95F1F;
+			}
+			#e1{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 200px;
+				left:900px;
+				border-top: 50px solid #F95F1F;
+				border-right: 15px solid #A5A3A3;
+				border-bottom: 50px solid #A5A3A3;
+				border-left: 15px solid #F95F1F;
+			}
+			#f1{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 500% 0% 0% 0%;
+				position:absolute;
+				left:770px;
+				top:285px
+			}
+			#g1{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 0% 500% 0% 0%;
+				position:absolute;
+				left:835px;
+				top:285px
+			}
+			
+
+			#a2{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 0% 0% 0% 500%;
+				position:absolute;
+				left:955px; 
+				top:215px; 
+				z-index: 100;
+			}
+			#b2{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 0% 0% 500% 0%;
+				position:absolute;
+				left:1020px; 
+				top:215px; 
+				z-index: 100;
+			}
+			#c2{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 215px; 
+				left:925px; 
+				border-top: 50px solid #A5A3A3;
+				border-right: 15px solid #44871F;
+				border-bottom: 50px solid #44871F;
+				border-left: 15px solid #A5A3A3;
+				z-index: 80;
+			}
+			#d2{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				top: 215px;
+				left:955px;
+				background-color: #44871F;
+			}
+			#e2{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 215px;
+				left:1055px;
+				border-top: 50px solid #44871F;
+				border-right: 15px solid #A5A3A3;
+				border-bottom: 50px solid #A5A3A3;
+				border-left: 15px solid #44871F;
+			}
+			#f2{
+				width: 65px;
+				height: 20px;
+				background: #44871F;
+				border-radius: 0% 0% 0% 500%;
+				position:absolute;
+				left:925px;
+				top:315px
+			}
+			#g2{
+				width: 65px;
+				height: 20px;
+				background: #44871F;
+				border-radius: 0% 0% 500% 0%;
+				position:absolute;
+				left:990px;
+				top:315px
+			}
+
+
+
+
+
+
+			#a3{
+				width: 65px;
+				height: 20px;
+				background: #0344A4;
+				border-radius: 500% 0% 0% 0%;
+				position:absolute;
+				left:765px; 
+				top:305px 
+			}
+			#b3{
+				width: 65px;
+				height: 20px;
+				background: #0344A4;
+				border-radius: 0% 500% 0% 0%;
+				position:absolute;
+				left:830px;
+				top:305px
+			}
+			#c3{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 320px;
+				left:735px;
+				border-top: 50px solid #A5A3A3;
+				border-right: 15px solid #0344A4;
+				border-bottom: 50px solid #0344A4;
+				border-left: 15px solid #A5A3A3;
+			}
+			#d3{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				top: 320px;
+				left:765px;
+				background-color: #0344A4;
+			}
+			#e3{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 320px;
+				left:865px;
+				border-top: 50px solid #0344A4;
+				border-right: 15px solid #A5A3A3;
+				border-bottom: 50px solid #A5A3A3;
+				border-left: 15px solid #0344A4;
+			}
+			#f3{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 500% 0% 0% 0%;
+				position:absolute;
+				left:735px;
+				top:405px
+			}
+			#g3{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 0% 500% 0% 0%;
+				position:absolute;
+				left:800px;
+				top:405px
+			}
+
+
+			#a4{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 0% 0% 0% 500%;
+				position:absolute;
+				left:920px;
+				top:335px;
+				z-index: 100;
+			}
+			#b4{
+				width: 65px;
+				height: 20px;
+				background: #A5A3A3;
+				border-radius: 0% 0% 500% 0%;
+				position:absolute;
+				left:985px;
+				top:335px;
+				z-index: 100;
+			}
+			#c4{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 335px;
+				left:890px;
+				border-top: 50px solid #A5A3A3;
+				border-right: 15px solid #F6EF3F;
+				border-bottom: 50px solid #F6EF3F;
+				border-left: 15px solid #A5A3A3;
+				z-index: 80;
+			}
+			#d4{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				top: 335px;
+				left:920px;
+				background-color: #F6EF3F;
+			}
+			#e4{
+				width: 0px;
+				height: 0px;
+				position: absolute;
+				top: 335px;
+				left:1020px;
+				border-top: 50px solid #F6EF3F;
+				border-right: 15px solid #A5A3A3;
+				border-bottom: 50px solid #A5A3A3;
+				border-left: 15px solid #F6EF3F;
+			}
+			#f4{
+				width: 65px;
+				height: 20px;
+				background: #F6EF3F;
+				border-radius: 0% 0% 0% 500%;
+				position:absolute;
+				left:890px;
+				top:435px;
+			}
+			#g4{
+				width: 65px;
+				height: 20px;
+				background: #F6EF3F;
+				border-radius: 0% 0% 500% 0%;
+				position:absolute;
+				left:955px;
+				top:435px
+			}
+		</style>
+	</head>
+<body bgcolor="#A5A3A3">
+<!-- 太极图 -->
+<div id="main-yuan1"></div>
+	<div id="main-yuan2"></div>
+	<div id="yuan1"></div>
+	<div id="yuan2"></div>
+	<div id="hei"></div>
+	<div id="bai"></div> 
+
+
+<!-- windows图标 -->
+	<div id="a1"></div>
+	<div id="b1"></div>
+	<div id="c1"></div>
+	<div id="d1"></div>
+	<div id="e1"></div>
+	<div id="f1"></div>
+	<div id="g1"></div>
+
+	<div id="a2"></div>
+	<div id="b2"></div>
+	<div id="c2"></div>
+	<div id="d2"></div>
+	<div id="e2"></div>
+	<div id="f2"></div>
+	<div id="g2"></div>
+
+	<div id="a3"></div>
+	<div id="b3"></div>
+	<div id="c3"></div>
+	<div id="d3"></div>
+	<div id="e3"></div>
+	<div id="f3"></div>
+	<div id="g3"></div>
+
+	<div id="a4"></div>
+	<div id="b4"></div>
+	<div id="c4"></div>
+	<div id="d4"></div>
+	<div id="e4"></div>
+	<div id="f4"></div>
+	<div id="g4"></div>
+</body>
+</html>

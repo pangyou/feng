@@ -1,0 +1,36 @@
+*{padding: 0;margin: 0;}
+body,html{
+    min-height: 100%;
+    font-weight: 300;
+    width: 100%;
+    font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 62.5%;
+    line-height: 1.231;
+    display: -webkit-box;
+    -webkit-box-align: stretch;
+    position: relative;
+	background: url("http://res.eqh5.com/group1/M00/CB/22/yq0KXVbLxByAHYd-AABNIFqL3Rc349.svg")no-repeat;
+    background-color: transparent;
+    overflow: hidden; 
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#top{
+    left: 35%;
+    margin-left: -130px;
+    position: absolute;
+    height: 641px;
+    top: 50%;
+    margin-top: -320px;
+}
+.phone-box{
+    width: 322px;
+    height: 641px;
+    float: Left;
+}
+.phone-box .top{
+    height: 48px;
+    width: 100%;
+	/*background: #F6F9FA;
+    border-radius: 20%;*/
+}

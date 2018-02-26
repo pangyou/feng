@@ -1,0 +1,888 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;}
+/*顶部区域开始*/
+#top_all{
+	width: 100%;
+	height: 31px;
+	background: #f7f7f7;
+	border-bottom:1px solid #CCCCCC;
+	font-size: 13px;
+	color: #727171;
+	position: relative;
+	font-family: "SimSun";
+}
+#top_all a:hover{
+	color: B81C22;
+	text-decoration: none;
+}
+#top{
+	width: 1200px;
+	height: 31px;
+	margin: 0 auto;
+	font-family: "SimSun";
+	/*border: 1px solid red;*/
+}
+#top a{
+		text-decoration: none;
+		color: #808080;
+}
+.top_left{
+	width: 480px;
+	height: 31px;
+	float: left;
+	position: relative;
+}
+/*设置浮动，字体排成一列，ul宽度要设置大*/
+.top_left ul{
+	width: 450px;
+	height: 31px;
+	text-align: center;
+}
+/*在这里设置li里的字体居中*/
+.top_left ul li{
+	width: 55px;
+	height: 31px;
+	line-height: 31px;
+	float: left;
+	list-style:none;
+	margin-left: 15px;
+}
+ ul span{
+ 	display: block;
+	width: 156px;
+	height: 31px;
+	line-height: 31px;
+	float: left;
+}
+/*把li宽度设置小点，字才能不被挤下来,字体居中line-height*/
+.top_right{
+	width: 515px;
+	height: 31px;
+	line-height: 31px;
+	float: left;
+	margin-left: 190px;
+}
+.dv1,.dv2,.dv3,.dv4,.dv5{
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	text-align:left;
+	margin-left: 5px;
+	float: left;
+	margin-top: 5px;
+	border-color: #A10000;
+
+}
+/*padding控制字与li框的距离，改变padding时需要改变li的高度*/
+/*字跑出框外，修改需要line-line-height居中*/
+.top_left .shu{
+	width: 0px;
+	border-right: 1px solid #808080;
+	height: 15px;
+	position: absolute;
+	right: 245px;top: 7px;
+
+}
+/*top隐藏框设置开始*/
+/*问题 估计relative用错了对象dv1  导致定位用绝对定位，花时间调整*/
+.dv1{
+	position:relative;
+}
+/*top右边部分手机微博等图片设置开始*/
+.dv1,.dv2,.dv3{
+	/*float: left;*/	
+	width: 68px;
+	height: 18px;
+	float: left;
+	background: url(../images/vanclsprite.png) no-repeat scroll 55px  4px;
+	border-color: #A10000;
+	border-radius: 8% 8% 0% 0%;
+}
+.dv2{
+	margin-left: 10px;
+	position: relative;
+}
+.dv3{
+	margin-left: 10px;
+	position: relative;
+}
+.dv4{
+	width: 68px;
+	height: 20px;
+	background: url(../images/vanclsprite.png) no-repeat scroll 55px  -26px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.dv4 a{
+	display: block;
+	width: 68px;
+	height: 20px;
+}
+/*通过控制dv4中的a块状化，并且是a的大小和dv4一样就能通过点击一块区域都显示连接*/
+.dv5{
+	width: 75px;
+	height: 20px;
+	position: relative;
+	/*background: url(../images/customer_2.png) no-repeat scroll 58px 2px;*/
+}
+.dv5 img{
+	float: left;
+	position: absolute;
+	top: 1px;
+	right: 0px;
+}
+.dv5 a{
+	width: 75px;
+	height: 20px;
+	display: block;
+}
+.weixin{
+	width: 20px;
+	height: 21px;
+	float: right;
+	margin-top: 5px;
+	position: relative;
+}
+.weixin img{
+	border:none;
+}
+.weibo{
+	float: right;
+	width: 20px;
+	height: 25px;
+	margin-top: 5px;
+}
+img{
+	border: none;
+}
+.weibo img{
+	border: none;
+}
+/*图片设置结束*/
+/*box隐藏框设置开始*/
+/*.box{
+	display: none;
+	width: 70px;
+	height: 68px;
+	padding: 4px 0px 0px;
+	border: 1px solid #a10000;
+	position: absolute;
+	left: -2px;top: 0px;
+	margin-left: 2px;
+	z-index: 10;
+	float: left;
+}*/
+.box1 li{
+		list-style-type: square;
+		/*color: red;*/
+		font-size: 12px;
+		margin-top: 1px;
+		margin-left: 5px;
+		width: 68px;
+		height: 18px;
+		line-height: 18px;
+}
+.box2 li{
+	list-style-type: square;
+}
+.box3 li{
+	list-style-type: square;
+}
+.box1{
+	/*display: block;*/
+	width: 68px;
+	height: 64px;
+	line-height: 41px;
+	text-align: center;
+	padding-left: 0px;
+	margin: 1px;
+	z-index: 10px;
+	float: left;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	border-top: none;
+	border-radius: 0% 0% 8% 8%;
+}
+.dv1lia1{
+	width: 68px;
+	height: 18px;
+	line-height: 18px;
+	padding-top: 24px;
+}
+.dv1lia2{
+	width: 68px;
+	height: 18px;
+}
+.box2{
+	/*display: block;*/
+	width: 68px;
+	height: 117px;
+	z-index: 2;
+	font-size: 12px;
+	border-top: none;
+	border-radius: 0% 0% 8% 8%;
+	color: #A10000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.box3{
+	/*display: block;*/
+	border: 1px solid ##A10000;
+	text-align: center;
+	width: 68px;
+	height: 44px;
+	z-index: 3;
+	border-top: none;
+	font-size: 12px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.box4 img{
+	border: none;
+}
+.box4{
+	/*border: none;*/
+	display: none;
+	width: 148px;
+	height: 169px;
+	float: left;
+	margin-top:  -5px;
+	margin-left: -128px;
+	z-index: 4;
+	overflow: hidden;
+	z-index: 15;
+}
+.top_right .dv1:hover .box{
+
+ 	display: block;
+}
+.top_right .dv1{
+	width: 68px;
+	height: 27px;
+}
+/*.dv1:hover{
+	border: 1px solid #A10000;
+	border-bottom: none;
+	border-radius: 8% 8% 0% 0%;
+}*/
+/*.top_right .dv2:hover .box{
+	display: none;
+	border-top: none;
+}*/
+/*.top_right .dv2:hover{
+	border: 1px solid #a10000;
+	border-bottom: none;
+	width: 68px;
+	height: 27px;
+	color: red;
+}*/
+/*.top_right .dv3:hover .box{
+	display: none;
+	border: 1px solid #A10000;
+}
+.top_right .dv3:hover{
+	border: 1px solid #a10000;
+	border-bottom: none;
+	width: 68px;
+	height: 27px;
+}*/
+.top_right .weixin:hover .box4{
+	display: block;
+}
+.dv1 li:hover{
+	color: red;
+}
+.dv2 li:hover{
+	color: red;
+}
+.dv3 li:hover{
+	color: red;
+}
+/*top隐藏框设置结束*/
+/*顶部区域结束*/
+
+/*广告gg区域*/
+#logo{
+	height: 54px;
+	background: #B91C23;
+	margin: 0 auto;
+}
+#logo img{
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	height: 55px;
+}
+/*搜索区域开始*/
+#search{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+/*margin这样设置是什么意思？？*/
+.search_left{
+	width: 199px;
+	height: 47px;	
+	float: left;
+
+}
+.search_left a{
+	display: block;
+	width: 166px;
+	height: 47px;
+	margin-left: 33px;
+	border: 1px dashed #333333;
+	background: url(../images/vanclsprite.png) no-repeat scroll 0px -59px;
+}
+#search .search_left a:hover{	
+	border-color: #a10000;
+	text-decoration: none;
+}
+.search_right{
+	width: 558px;
+	height: 62px;
+	float: right;
+	margin-top: 18px;
+}
+.sousuolan{
+	width: 385px;
+	height: 29px;
+	position: relative;
+	float: left;
+}
+
+.sousuolanleft{
+	width: 380px;
+	height: 27px;
+	border: 1px solid #000000;
+	text-indent: 10px;
+	z-index: 20;
+
+}
+.sousuolanright{
+	width: 60px;
+	height: 29px;
+	background: #B91C23;
+	border: none;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+	color: white;
+	z-index: 2;
+	+border-radius:  0px 7px 7px 0px;
+}
+/*在ie7时候显示样式不一样*/
+/*.button1{	
+	padding-left: 27px;
+	
+	border: 0px solid white;
+	font-size: 12px;
+	background: url(../images/vanclsprite.png) no-repeat scroll -158px 0px;
+}*/
+.button1{
+	margin-left: 10px;
+	float: left;
+	width: 71px;
+	height: 26px;
+	line-height: 28px;
+	margin-left: 20px;
+	padding-left: 29px;
+	font-size: 13px;
+	border: 1px solid transparent;
+	color: white;
+	cursor: pointer;
+	background: url(../images/vanclsprite.png) no-repeat scroll -158px 0px;
+	z-index: 4;
+	/*border: 1px solid green;*/
+}
+.box5{
+	/*display: block;*/
+	width: 327px;
+	height: 15px;
+	line-height: 15px;
+	padding-top: 10px;
+	float: left;
+	font-size: 12px;
+	margin-left:905px;
+	margin-top: 135px;
+	background-image: url(../images/logo.png) no-repeat left center;
+	overflow: hidden;
+	z-index: 18;
+	top: 28px;
+	background: white;
+}
+.bai{
+	width: 102px;
+	height: 20px;
+	background: white;
+	float: left;
+	position: absolute;
+	left: 1116px;
+}
+.button1:hover .box{
+	display: block;
+}
+.button1:hover{
+	border-color: red;
+	color: red;
+	background: url(../images/vanclsprite.png) no-repeat scroll -158px -30px;
+}
+ /*档不住边框线、、？？？？*/
+/*购物车之后下面的文字开始*/
+.remensousuo{
+	width: 382px;
+	height: 29px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 13px;
+}
+.remensousuo a{
+	width: 100px;
+	height: 29px;
+	text-decoration: none;
+	margin-left: 10px;
+	color: #727171;
+}
+
+
+/*搜索区域结束*/
+/*分类部分开始*/
+#list{
+	width: 1200px;
+	height: 49px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.list_left{
+	width: 260px;
+	height: 49px;
+	background: #B81C22;
+	float: left;
+	font-size: 17px;
+	text-align: center;
+	line-height: 49px;
+	color: white;
+	margin-left: 0px;
+}
+.list_right{
+	width: 940px;
+	height: 49px;
+	background: #EFEFEF;
+	float: left;
+	position: relative;
+	/*border: 1px solid green;*/
+}
+.list_right li{
+	width:117.5px;
+	height: 49px;
+	float: left;
+	list-style: none;
+	line-height: 49px;
+	text-align: center;
+	font-size: 16px; 
+}
+.list_right li a{
+	float: left;
+	width: 117.5px;
+	height: 49px;
+	text-decoration: none;
+    color: #727171;
+}
+.list_right li .hides1{
+	width: 900px;
+	height: 180px;
+	/*display: none;*/
+}
+
+
+.list_right li .hides{
+    width: 900px;
+    height: 180px;
+    position: absolute;
+    left: 0px;top: 49px;
+    z-index: 100;
+    display: none;
+    background: white;
+}
+.list_right li .hides1{
+	/*background: red;*/
+}
+/*.list_right li .hides2{
+	background: blue;
+}
+.list_right li .hides3{
+	background: yellow;
+}*/
+
+
+.list_right li:hover a{
+	background: #E5E6E6;
+	color: #B81C22;
+}
+.list_right li:hover .hides{
+	display: block;
+}
+/*隐藏hides设置开始*/
+.yifu1{
+	width: 449px;
+	height: 180px;
+	float: left;
+	background: white;
+	/*border: 1px solid red;*/
+
+}
+.yifu1right{
+	width: 440px;
+	height: 170px;
+	position: relative;
+	z-index: 20;
+	/*border: 1px solid  green;*/
+}
+.yifu1right span{
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	color: #727171;
+}
+#nav .yifu1right span:hover{
+	color: #A10000;
+}
+.yifu1 a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	color: #727171;
+	float: left;
+	margin-top: 20px;
+	/*background: blue;*/
+}
+.yifu1 p{
+	font-size: 12px;
+	width: 170px;
+	height: 50px;
+	line-height: 20px;
+	text-align: left;
+	/*background: yellow;*/
+	float: left;
+}
+.yifu1right span{
+	width: 150px;
+	height: 35px;
+	text-align: left;
+	color: #A10000;
+	/*background: red;*/
+	float: left;
+}
+.yifu2{
+	width: 449px;
+	height: 180px;
+	float: left;
+	background: white;
+}
+.yifu1 img{
+	width: 140px;
+	height: 140px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+}
+.yifu2 img{
+	width: 140px;
+	height: 140px;
+	margin: 20px;
+	float: left;
+}
+.shuxian{
+	width: 0px;
+	height: 160px;
+	border: 1px solid #DBDBDD;
+	float: left;
+	margin-top: 10px;
+}
+/*隐藏设置结束*/
+/*分类部分结束*/
+
+/*菜单开始*/
+#nzsp{
+	height: 643px;
+	width: 1200px;	
+	font-size: 12px;
+	margin: 0 auto;
+}
+a{
+	color: #808080;
+	height: 20px;
+	text-decoration: none;
+}
+a:hover{
+	color: #a10000;
+}
+.nzspleft{
+	width: 260px;
+	height: 492px;
+	float: left;
+}
+.nzspcenter{
+	width: 700px;
+	height: 475px;
+	float: left;
+	margin-left: 4px;
+}
+.nzspright{
+	width: 220px;
+	height: 476px;
+	float: left;
+	position: relative;
+	margin-left: 4px;
+	z-index: 1;
+}
+.hengxian{
+	margin-left: 4px;
+	height: 1px;
+	width: 200px;
+	background: black;
+	position: absolute;
+	top: 234px;
+	left: 5px;
+}
+.son{
+	width: 260px;
+	height: 60px;
+	border: 1px solid #C8C8C9;
+	border-bottom: none;
+}
+.son1{
+	height: 67px;
+	margin-top: 10px;
+}
+.son3,.son4,.son5,.son6,.son7{
+	border-bottom: 1px solid #C8C8C9;
+}
+.son4{
+	margin-top: 10px;
+}
+.son5,.son6,.son7{
+	margin-top: 10px;
+}
+.son5,.son6{
+	height: 52px;
+	line-height: 52px;
+}
+
+.son dd{
+	width: 258px;
+	height: 26px;
+	line-height: 26px;
+	margin-left: 20px;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	font-weight: hold;
+	color:  #808080;
+}
+.son dt a{
+	display: block;
+	width:50px;
+	height: 17px;
+	text-align: center;
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 10px;
+	color: #A3A2A2;
+}
+.son6 dt a{
+	width: 34px;
+	height: 30px;
+	line-height: 30px;
+}
+.nzspleft span a{
+	display: block;
+	background: white;
+	width: 35px;
+	height: 18px;
+	line-height: 18px;
+	margin-left: 20px;
+	margin-top: -10px;
+	color: #a10000;
+	font-size: 15px;
+}
+.son6 span a{
+	display: block;
+	width: 132px;
+	height: 20px;
+}
+.son dd a:hover{
+	color: #A3A2A2;
+}
+.son dt a:hover{
+	background: #EDEEEE;
+	color: #B81C22;
+}
+.son dt .sm{
+	color: #B81C22;
+}
+.son dt .sm:hover{
+	color: #B81C22;
+	background: none;
+}
+/*菜单结束*/
+/*当季推荐开始*/
+#dangjituijian{
+	width: 1200px;
+	height: 521px;
+	margin: 0 auto;
+	margin-top: -140px;
+}
+#dangjituijian h2{
+	width: 1200px;
+	height: 40px;
+	padding-left: 35px;
+	line-height: 40px;
+	font-size: 17px;
+	font-family: "Microsoft Yahei";
+	color: #595757;
+}
+/*当季推荐结束*/
+#shangzhuang{
+	width: 1200px;
+	margin: 0 auto;
+}
+#shangzhuang h2{
+	width: 1200px;
+	height: 40px;
+	padding-left: 35px;
+	line-height: 40px;
+	font-size: 17px;
+	font-family: "Microsoft Yahei";
+	color: #595757;
+}
+#shangzhuang img{
+	margin-left: 0px;
+}
+.yif15{
+	width: 232px;
+	height: 232px;
+	margin-left: 4px;
+}
+/*上装结束*/
+#xiazhuang{
+	width: 1200px;
+	margin: 0 auto;
+}
+#xiazhuang h2{
+	width: 1200px;
+	height: 40px;
+	padding-left: 35px;
+	line-height: 40px;
+	font-size: 17px;
+	font-family: "Microsoft Yahei";
+	color: #595757;
+}
+/*下装结束*/
+#gengduojingpin{
+	width: 1200px;
+	margin: 0 auto;
+}
+#gengduojingpin h2{
+	width: 1200px;
+	height: 40px;
+	padding-left: 35px;
+	line-height: 40px;
+	font-size: 17px;
+	font-family: "Microsoft Yahei";
+	color: #595757;
+}
+/*更多精品结束*/
+#footer1{
+	width: 1190px;
+	height: 160px;
+	margin: 0 auto;
+	border: 1px solid #e0e0e1;
+	margin-top: 50px;
+}
+#footer1 ul li{
+	width: 127px;
+	height: 138px;
+	float: left;
+	margin-top: 20px;
+	padding-left: 70px;
+	border-right: 1px solid #e0e0e1;
+	color: #3e3a39;
+	list-style: none;
+}
+#footer1 h2{
+	color: #333333;
+	font-weight: normal;
+	font-size: 13px;
+	margin-bottom: 15px;
+
+}
+#footer1 ul li span{
+	line-height: 20px;
+	font-size: 12px;
+	height: 17px;
+	width: 100px;
+	font-family: "Microsoft YaHei";
+}
+
+#footer1 ul .libangzhu{
+	border-right: none;
+}
+#footer1 a:hover{
+	color: #a10000;
+}
+#footer1son{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#footer1son img{
+	display: inline-block;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	float: left;
+}
+#footer1son img .imga1{
+	background: url(..images/vanclsprite.png) no-repeat scroll 88px -127px;
+}
+#footer2 {
+	width: 100%;
+	height: 33px;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 33px;	
+	border-top:1px solid black;
+	margin-top: 5px;
+}
+#footer2 p{
+	width: 1200px;
+	height: 33px;
+	margin: 0 auto;
+}
+#footer3{
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 220px;
+}
+#footer3 img{
+	display: inline-block;
+}
+
+#top_right a{
+	/*float: right;*/
+	background: red;
+
+}
+
+

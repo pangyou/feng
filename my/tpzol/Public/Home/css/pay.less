@@ -1,0 +1,260 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+i{
+    list-style: none;
+}
+input{
+    list-style: none;
+    border: none;
+}
+table{
+    border: none;
+}
+//字体设置
+//样式开始
+//页头开始
+#header{
+//  外100%开始
+    .h_outer{
+        width: 100%;
+        height:30px ;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #e6e6e6;
+//      页头的公共样式设置开始
+        font:12px arial; 
+        a:hover{
+            text-decoration: underline;
+            color: #CC0000;
+        }
+//      页头的公共样式结束
+//      内宽开始
+        .h_inside{
+            margin: 0 auto;
+            width: 1200px;
+            height: 30px;
+//          左侧登录开始
+            .login{  
+                float: left;
+                line-height: 30px;
+//              商城首页设置
+                .l_home{
+                    a{
+                         color: #707070;
+                    }
+                }
+//              商城首页设置结束
+//              span的公共样式开始
+                span{
+                    padding-right: 20px;
+                    a{
+                        color: #557FD3;
+                    }
+                }
+//              span的公共样式结束
+            }
+//          左侧登录结束
+//          左侧导航开始
+            .menu{
+                float: right;
+                height: 30px;
+                a{
+                    color: #6A6A6A;
+                }
+                a:hover{
+                     color: #CC0000;
+                }
+                ul{
+                    line-height: 30px;
+                    li{
+                        float: left;
+                        margin: 0 10px;
+                    }
+//                  手机商城
+                    .li_phone{
+                        padding: 0 0px 0 20px;
+                        text-align: center;
+                        background: url(../images/01.png) no-repeat;
+                    }
+                }
+            }
+//          左侧导航结束
+        }
+//      内宽结束
+    }
+//  外100%结束
+}
+//页头结束
+    //搜索开始
+    #search{
+        width: 1200px;
+        height: 117px;
+        padding: 25px 0 0;
+        margin: 0 auto;
+        overflow: hidden;
+    //  logo开始
+        .logo{
+            width: 180px;
+            height: 50px;
+            float: left;
+        }
+    //  logo结束
+        p{
+            float: left;
+            margin: 3px 0 0 10px;
+            padding: 0 0 0 10px;
+            border-left: 1px solid #eee;
+            font: 18px/52px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+            color: #999;
+            width: 165px;
+            height: 44px;
+            line-height: 44px;
+        }
+    //  搜索框开始
+        .search_box{
+            width: 600px;
+            height: 73px;
+            padding: 12px 0 0 56px;
+            float: left;
+            .s_text{
+                width: 447px;
+                height: 36px;
+                border: 2px solid #C40000;
+                float: left;
+            }
+            .s_sub{
+                float: left;
+                width: 89px;
+                height: 36px;
+                background-color: #C40000;
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 900;
+            }
+            span{
+                display: block;
+                width: 540px;
+                height: 20px;
+                margin-top: 10px;
+                float: left;
+                a{
+                    float: left;
+                    color: #999999;
+                    font-size: 12px;
+                    margin-right: 15px;
+                }
+                a:hover{
+                    color: #CC0000;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    //搜索结束
+#content{
+    width: 960px;
+    margin: 0 auto;
+    .c_order{
+        width: 958px;
+        height: 116px;
+        border: 1px solid #E3E3E3;
+        background: #FAFAFA;
+        padding: 5px 40px 5px;
+        .c_order_l{
+            width: 600px;
+            height: 105px;
+            padding: 11px 0 0;
+            float: left;
+            h3{
+                margin: 0;
+                padding: 0;
+                font: 18px/26px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                span{
+                    color: red;
+                }
+            }
+            p{
+                font: 12px/24px arial;
+                color: #666;
+            }
+        }
+        .c_order_r{
+            width: 260px;
+            height: 105px;
+            float: right;
+            p{
+                width: 158px;
+                height: 50px;
+                text-align: right;
+                line-height: 50px;
+                float: left;
+                span{
+                    color: red;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+            img{
+                float: left;
+            }
+        }
+    }
+    .paynow{
+        width: 958px;
+        padding: 20px 20px;
+        border: 1px solid #E3E3E3;
+        border-top: none;
+        dl{
+            width: 918px;
+            height: 67px;
+            border: 2px solid #ededed;
+            dt{
+                font: 16px/34px "Microsoft YaHei",arial;
+                line-height: 67px;
+                float: left;
+            }
+            dd{
+                line-height: 67px;
+                float: left;
+                span{
+                    color: red;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .p_sub{
+            display: block;
+            width: 162px;
+            height: 44px;
+            background: #B90000;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 44px;
+            color: #FFFFFF;
+            text-align: center;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+#foot{
+    margin: 40px auto 0;
+    padding: 5px 0 20px;
+    width: 960px;
+    text-align: center;
+    border-top: 1px solid #e3e3e3;
+    span{
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+    

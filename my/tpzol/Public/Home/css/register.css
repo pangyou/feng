@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+i {
+  list-style: none;
+}
+input {
+  list-style: none;
+  border: none;
+}
+table {
+  border: none;
+}
+#top #search {
+  width: 990px;
+  height: 117px;
+  padding: 25px 0 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#top #search .logo {
+  width: 180px;
+  height: 50px;
+  float: left;
+}
+#top #search p {
+  float: left;
+  margin: 3px 0 0 10px;
+  padding: 0 0 0 10px;
+  border-left: 1px solid #eee;
+  font: 14px/52px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+  color: #666;
+  width: 300px;
+  height: 44px;
+  line-height: 44px;
+}
+#top #search .register {
+  float: right;
+  padding: 21px 0 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+#top #search .register a {
+  height: 16px;
+  padding: 3px 10px;
+  color: #c00;
+  font: normal 14px/14px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+}
+#top #search .register a:hover {
+  background: #c00;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#register {
+  border: 1px solid #e6e6e6;
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#register .title {
+  width: 978px;
+  height: 60px;
+  padding: 16px 0 16px 90px;
+  background: #fafafa;
+  font: 18px/28px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+  color: #999;
+}
+#register .r_l {
+  width: 589px;
+  float: left;
+  padding: 30px 0 0 89px;
+}
+#register .r_l dl {
+  margin-bottom: 30px;
+  float: left;
+}
+#register .r_l dl dt {
+  width: 83px;
+  height: 40;
+  text-align: right;
+  font: 14px/40px "Arial";
+  line-height: 40px;
+  color: #666;
+  float: left;
+  padding-right: 10px;
+}
+#register .r_l dl dt em{
+  color: red;
+}
+#register .r_l dl dd {
+  float: left;
+}
+#register .r_l dl dd .chang {
+  width: 290px;
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  text-indent: 10px;
+}
+#register .r_l dl dd .duan {
+  width: 170px;
+  height: 40px;
+  border: 1px solid #CCCCCC;
+}
+#register .r_l dl dd img {
+  margin-left: 20px;
+}
+#register .r_l .sub {
+  width: 290px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  background: #DC2E2E;
+  margin: 20px 0 0 83px;
+  font-weight: 900;
+}
+#register .r_r {
+  width: 276px;
+  float: right;
+  margin-top: 10px;
+}
+#foot {
+  width: 100%;
+  border-top: 1px solid #DCDCDC;
+  margin-top: 50px;
+}
+#foot .foot_inside {
+  width: 990px;
+  height: 18px;
+  margin: 20px auto;
+}
+#foot .foot_inside span {
+  padding: 0 10px 0 10px;
+}
+/*# sourceMappingURL=register.css.map */

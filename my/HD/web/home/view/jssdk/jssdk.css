@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: white;
+	font-size: 30px;
+}
+a{
+	color: ;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+em{
+	font-style: normal;
+	color:red;
+}
+title{
+	text-align: center;
+}
+.container{
+	margin: 0 30px;
+}
+#top{
+	height: 84px;
+	background: #FC773E;
+	color: white;
+	line-height: 84px;
+	font-size: 40px;
+	text-align: center;
+}
+#top .pre{
+	float: left;
+	display: block;
+	width: 20px;
+	height: 20px;
+	font-size: 40px;
+	margin-left: 30px;
+    font-family: simsun;
+}
+#top .pre{
+  	position: relative;
+}
+#top .pre::after,#top .pre:before {
+	border: 20px solid transparent;
+	border-right: 20px solid #FC773E;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 22px;
+	right: -20px;
+	content: ' ';
+}
+#top .pre::before {
+	border-right-color: #fff;
+    right: -15px;
+}
+#top .save{
+	color: white;
+	background: #FC773E;
+	font-size: 40px;
+	line-height: 84px;
+	float: right;
+	margin-right: 15px;
+    border: none;
+}
+#name{
+	margin: 10px 0px 0px;
+}
+input[type=text]{
+	height: 40px;
+	width: 450px;
+	line-height: 40px;
+	font-size: 30px;
+	border: none;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0;
+	padding: 0;
+}
+input.text1{
+	width: 220px;
+}
+#imgs{
+	margin:10px 0px;
+}
+#imgs .imgfirst{
+	min-width: 100%;
+}
+#imgs .new{
+	width: 100px;
+	height: 100px;
+	margin-right: 5px;
+}
+.des textarea{
+	width: 690px;
+	height: 320px;
+	padding: 10px;
+	color: #999;
+	border: 1px solid #ccc;
+	resize: none;
+	margin-bottom: 0;
+	font-size: 30px;
+}
+#com,#tel{
+	margin-top: 30px;
+}
+#com .bottom{
+	margin-top: 5px;
+}
+#com .fa1{
+	display: none;
+}
+#com .fa1{
+	margin: 20px 0px 10px;
+}
+#com .fa2,.fa1{
+	height: 54px;
+	line-height: 54px;
+}
+#com .fa2 input{
+	height: 54px;
+	line-height: 54px;
+	width: 460px;
+}
+#com .fa2 a,.fa1 span{
+	padding: 10px 15px;
+	border: 2px solid #DEC9C8;
+	color: #E6B493;
+	border-radius: 5%;
+}
+#com .fa1 span{
+	margin-right: 30px;
+	position: relative;
+}
+#com .fa1 span i{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 30px;
+	background: #E9805B;
+	border-radius: 50%;
+	font-style: normal;
+	cursor: pointer;
+}
+#tel{
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+#tel .dv1,.dv2{
+	padding-left: 10px;
+	margin-top: 10px;
+}
+#tel .dv2{
+	margin-top: 30px;
+}
+#tel .dv1 input{
+	width:150px;
+}
+#tel .dv1 input.input2{
+	width: 230px;
+}
+#tel .dv2 input{
+	width: 520px;
+}

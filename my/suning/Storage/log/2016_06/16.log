@@ -1,0 +1,266 @@
+[ 2016-06-16T08:53:56+08:00 ]EXCEPTION: Home\Controller\GoodsController 不存在
+[ 2016-06-16T15:08:33+08:00 ]NOTICE: basename() expects parameter 1 to be string, array givenD:\Program\www\suning\App\Home\Controller\IndexController.php (94).
+[ 2016-06-16T15:08:33+08:00 ]NOTICE: basename() expects parameter 1 to be string, array givenD:\Program\www\suning\App\Home\Controller\IndexController.php (94).
+[ 2016-06-16T15:08:33+08:00 ]NOTICE: basename() expects parameter 1 to be string, array givenD:\Program\www\suning\App\Home\Controller\IndexController.php (94).
+[ 2016-06-16T15:08:33+08:00 ]NOTICE: basename() expects parameter 1 to be string, array givenD:\Program\www\suning\App\Home\Controller\IndexController.php (94).
+[ 2016-06-16T15:08:33+08:00 ]NOTICE: basename() expects parameter 1 to be string, array givenD:\Program\www\suning\App\Home\Controller\IndexController.php (94).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:24:57+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: gidD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:26:25+08:00 ]NOTICE: Undefined index: pic_listD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:28:01+08:00 ]EXCEPTION: SELECT  gid,img  FROM goods_detail WHERE goods_gid between 73 and 78 ;BindParams:array (
+)42S22;1054;Champ 'gid' inconnu dans field list
+[ 2016-06-16T15:28:11+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:28:12+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:28:58+08:00 ]NOTICE: Undefined index: goods_gid,imgD:\Program\www\suning\hdphp\Db\Mysql.php (1060).
+[ 2016-06-16T15:28:58+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\App\Home\Controller\IndexController.php (96).
+[ 2016-06-16T15:28:58+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (525).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'img'D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:09+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:24+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:29:34+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:30:11+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Use of undefined constant DIRNAME - assumed 'DIRNAME'D:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: pathinfo() expects parameter 2 to be long, string givenD:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Use of undefined constant DIRNAME - assumed 'DIRNAME'D:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: pathinfo() expects parameter 2 to be long, string givenD:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Use of undefined constant DIRNAME - assumed 'DIRNAME'D:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: pathinfo() expects parameter 2 to be long, string givenD:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Use of undefined constant DIRNAME - assumed 'DIRNAME'D:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: pathinfo() expects parameter 2 to be long, string givenD:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Use of undefined constant DIRNAME - assumed 'DIRNAME'D:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: pathinfo() expects parameter 2 to be long, string givenD:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Use of undefined constant DIRNAME - assumed 'DIRNAME'D:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: pathinfo() expects parameter 2 to be long, string givenD:\Program\www\suning\App\Home\Controller\IndexController.php (98).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:31:35+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:40+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'gid'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:32:58+08:00 ]NOTICE: Illegal string offset 'pic_list'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:33:50+08:00 ]NOTICE: Array to string conversionD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:33:50+08:00 ]NOTICE: Array to string conversionD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:33:50+08:00 ]NOTICE: Array to string conversionD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:33:50+08:00 ]NOTICE: Array to string conversionD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:33:50+08:00 ]NOTICE: Array to string conversionD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:33:50+08:00 ]NOTICE: Array to string conversionD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'name'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'value'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'name'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'value'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'name'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'value'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'name'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'value'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'name'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'value'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'name'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T15:36:58+08:00 ]NOTICE: Illegal string offset 'value'D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T15:54:14+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (268).
+[ 2016-06-16T15:54:14+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (268).
+[ 2016-06-16T15:54:14+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (268).
+[ 2016-06-16T15:55:04+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\App\Home\Controller\IndexController.php (97).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:01:26+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:24+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:30+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:50+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:02:56+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:08:45+08:00 ]NOTICE: Undefined index: smallD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (159).
+[ 2016-06-16T16:31:38+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (525).
+[ 2016-06-16T16:31:56+08:00 ]NOTICE: Undefined property: Home\Controller\IndexController::$goodsD:\Program\www\suning\App\Home\Controller\IndexController.php (95).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: nameD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: valueD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: nameD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: valueD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: nameD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: valueD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: nameD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: valueD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: nameD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (527).
+[ 2016-06-16T16:32:08+08:00 ]NOTICE: Undefined index: valueD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:30+08:00 ]NOTICE: Undefined index: imgD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:30+08:00 ]NOTICE: Undefined index: imgD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:30+08:00 ]NOTICE: Undefined index: imgD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:30+08:00 ]NOTICE: Undefined index: imgD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).
+[ 2016-06-16T16:32:30+08:00 ]NOTICE: Undefined index: imgD:\Program\www\suning\Storage\view\compile\0c28e7150ba5d668f4a1564650d3d0d8.php (528).

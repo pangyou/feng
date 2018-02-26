@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Document</title>
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	#top{
+		width: 100%;
+		height: 650px;
+		background: url(images/9.jpg) right top;
+		overflow: hidden;
+	}
+	.top1{
+		width: 1200px;
+		height: 151px;
+		background: url(images/10.jpg) no-repeat;
+		margin: auto;
+	}
+	.box{
+		width: 1200px;
+		height: 600px;
+		position: relative;
+		top: -100px;
+		z-index: 20;
+		margin: 0 auto;
+	}
+	.box1{
+		width: 456px;
+		height: 646px;
+		float: left;
+		color: #8a6249;
+		font-size: 15px;
+	}
+	.box_left,.box_right{		
+		padding-left: 50px;
+		height: 600px;
+		margin-left:150px;
+		position: relative;
+	}
+	.box_left{
+		background: url(images/l1.jpg)no-repeat 67px 318px;
+	}
+	.box_right{
+		margin-left: 0;
+		padding-left: 0px;
+		position: relative;
+		z-index: 3000;
+	}
+	.box_right .dv{
+		margin-left: 10px;
+	}
+	#footer{
+		margin-top: -223px;
+		height: 273px;
+		background: url(images/22.png) repeat-X;
+		position: relative;
+		z-index: 1;
+	}
+	.footer1{
+		height: 200px;
+		width: 1200px;
+		margin: 0 auto;
+		position: relative;
+		z-index: -1;
+	}
+	.footer2{
+		width: 1200px;
+		height: 73px;
+		background: url(images/14.jpg) no-repeat;
+	}
+	.fa2{
+		display: block;
+		border-radius: 20px 50px 100px 60px;
+		margin-top: -18px;
+		z-index: 1;
+		width: 520px;
+		height: 600px;
+		background: url(images/a.png);
+		position: relative;
+		cursor: pointer;
+	}
+	.fa2 .a1{
+		display: block;
+		position: absolute;
+		left: 220px;
+		top: 70px;
+		width: 50px;
+		height: 400px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-align: center;
+		font-family: '微软雅黑';
+		font-size: 40px;
+	}
+	.fa2 p{
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 100px;
+		left: 250px;
+	}
+	.fa2 .p1{
+		bottom: 60px;
+	}
+	.box_left .dv1{
+		margin-left: 300px;
+		position: relative;
+		width: 400px;
+		height: 300px;
+		background: url(images/12.gif) -10px -380px;
+	}
+	#img1{
+		display: block;
+		width: 100px;
+		height: 100px;		
+		position: absolute;
+		left: 100px;
+		top: 50px;
+		background:url(images/xx7.png);
+	}
+	#img2{
+		display: block;
+		width: 100px;
+		height: 100px;		
+		position: absolute;
+		left: 100px;
+		top: 200px;
+		background:url(images/xx2.png);
+	}
+</style>
+<script type="text/javascript">
+ window.onload=function(){
+	var img1 = document.getElementById("img1");
+	var img2 = document.getElementById("img2");
+	var timer = 0;
+	var curTrans = 0;
+	var c2 = 0;
+	function run(){
+		curTrans+=10;
+		c2+=15;
+		img1.style.transform = 'rotate('+curTrans + "deg)";
+		img2.style.transform = 'rotate('+c2 + "deg)";
+		}
+    timer = setInterval(run,100);
+}	
+</script>
+</head>
+<body>
+<div id="top">
+	<div class="top1">
+		<img src="images/10.jpg" alt="" />
+	</div>
+	<div class="box">
+		<div class="box1 box_left">
+			<div class="dv1"></div>
+			<div class="dv2">
+				<img id="img1"  style="font-size:40px;transform:rotate(30deg);">
+				<img id="img2"  style="font-size:40px;transform:rotate(30deg);">
+			</div>
+		</div>
+		<div class="box1 box_right">
+			<div class="fa1"></div>
+			<a class="fa2" href='./1.php' title='点我进入留言'>
+				<p class="a1" href="">65期班级留言本</p>
+				<p>谢谢留言</p>
+				<p class="p1">---胖友制作</p>
+			</a>
+		</div>		
+	</div>
+</div>
+<div id="footer">
+	<div class="footer1"></div>
+	<div class="footer2"></div>
+</div>
+</body>
+</html>

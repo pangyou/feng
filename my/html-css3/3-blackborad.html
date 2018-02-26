@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>黑板</title>
+	<style type="text/css">
+		*{padding: 0;margin: 0}
+		#top{
+			width: 500px;
+			margin: 0 auto;
+		}
+		#bg{
+			background: grey;
+			margin: 0 auto;
+		}
+		#box{
+			width: 1000px;
+			margin: 0 auto;
+		}
+		#box p{
+			width: 200px;
+			float: left;
+		}
+		#img{
+			width: 300px;
+			height: 200px;
+		}
+		#son{
+			clear: both;
+			width: 500px;
+			margin: 0 auto;
+		}
+		.img{
+			border: 2px solid gold;
+			background: grey;
+		}
+	</style>
+	<script type="text/javascript" src='jquery-1.8.2.min.js'></script>
+</head>
+<body>
+	<div id="top">
+		<canvas id='bg' width='500' height='300'></canvas>
+	</div>
+	<div id="box">
+		<p>笔画粗细: <input type="range" id="size" max='5' min='1'></p>
+		<p><input type="color" id="color"></p>
+		<p>橡皮擦:<input type="range" max='10' id="only" min='1'></p>
+		<p><a href="javascript:;" id="clear">一键擦黑板</a></p>
+		<p><a href="javascript:;" id="save">保存照片</a></p>
+	</div>
+	<div id="img">
+		
+	</div>
+	<script type="text/javascript">
+	 	var blackBorad = function(){
+	 		// 原生对象赋值给变量
+	 		var jsThis = this;
+	 		// 画布对象
+	 		jsThis.ctx = document.getElementById('bg').getContext('2d');
+	 		// 1,默认初始化线条颜色宽度等
+	 		// 颜色
+	 		jsThis.lineColor = $('#color').val();
+	 		// 宽度
+	 		jsThis.lineWidth = 3;
+	 		// 执行笔画大小改变方法
+	 		jsThis.size = function(){
+	 			jsThis.lineWidth = $('#size').val();
+	 		}
+	 		// 执行一键檫黑板
+	 		jsThis.clear = function(){
+		 		// 清空矩形
+				jsThis.ctx.clearRect(0,0,500,300);
+	 		}
+	 		// 执行橡皮擦功能
+	 		jsThis.only = function(){
+	 			// 颜色
+	 			jsThis.lineColor = 'grey';
+	 			// 宽度
+	 			jsThis.lineWidth = $('#only').val();
+	 		}
+	 		// 默认执行的方法
+	 		jsThis.run = function(){
+	 			// 设置字体
+		 		jsThis.ctx.font = '20px Arial';
+		 		// 设置文字对齐方式
+		 		jsThis.ctx.textAlign = 'left';
+		 		// 设置基线位置
+		 		jsThis.ctx.textBaseline = 'top';
+		 		// 设置颜色
+		 		jsThis.ctx.fillStyle = 'white';
+		 		// 开始写字
+		 		jsThis.ctx.fillText('自制小黑板~',150,10,500);
+	 			// 当鼠标按下触发  
+	 			$('#bg').mousedown(function(e) {
+	 				 // 获得鼠标 相对坐标位置
+			        var ev = e || window.event;
+			        var l = ev.offsetX || ev.layerX;
+			        var t = ev.offsetY || ev.layerY;
+			        // 设置开始路径
+	 				jsThis.ctx.beginPath();
+	 				// 线条颜色
+	 				jsThis.ctx.strokeStyle = jsThis.lineColor;
+	 				// 默认宽度
+	 				jsThis.ctx.lineWidth = jsThis.lineWidth;
+	 				// 设置起点
+	 				jsThis.ctx.moveTo(l,t);
+	 				// 在鼠标按下时同时移动的时候
+	 				$(this).mousemove(function(e) {
+ 					 // 获得鼠标 相对坐标位置
+			        var ev = e || window.event;
+			        var l = ev.offsetX || ev.layerX;
+			        var t = ev.offsetY || ev.layerY;
+			        // 设置终点位置
+			        jsThis.ctx.lineTo(l,t);
+			        // 划线
+			        jsThis.ctx.stroke();
+	 				});
+	 				// 文档对象鼠标抬起,解除画布的mousemove事件
+	 				$(document).mouseup(function() {
+	 					$('#bg').unbind('mousemove');
+	 				});
+	 			});
+	 		}
+	 	}
+	 	var obj = new blackBorad();
+	 	obj.run();
+	 	// 取色
+	 	$('#color').change(function() {
+	 		obj.lineColor = $('#color').val();
+	 	});
+	 	// 橡皮擦功能
+	 	$('#only').click(function() {
+	 		obj.only();
+	 	});
+	 	// 字体大小
+	 	$('#size').click(function() {
+	 		obj.size();
+	 	});
+	 	// 一键擦黑板
+	 	$('#clear').click(function() {
+	 		obj.clear();
+	 	});
+	 	// 保存照片
+	 	var imgArr = window.sessionStorage.getItem('imgData');
+	 	if(!imgArr){
+	 		// 第一次的时候没有
+	 		imgArr = [];
+	 	}else{
+	 		// 转为json数据
+	 		imgArr = JSON.parse(imgArr);
+	 	}
+	 	$('#save').click(function() {
+	 		// toDataURL获得图片信息 (base64加密的数据)
+			var imgData = document.getElementById("bg").toDataURL('image/png');
+			$('#img').append('<img src="'+imgData+'"/>');
+			imgArr.push(imgData);
+			// 转化为字符串
+			var data = JSON.stringify(imgArr);
+			// 存入缓存
+			window.sessionStorage.setItem('imgData',data);
+	 	});
+	 	function showImg(){
+	 		// 获取缓存
+	 		var data = window.sessionStorage.getItem('imgData');
+	 		// 转化为json数据
+	 		data = JSON.parse(data);
+	 		var str = '';
+	 		$.each(data, function(k, v) {
+	 			str += '<img class="img" src="'+v+'"/>';
+	 		});
+	 		$('#img').html(str);
+	 	}
+	 	showImg();
+
+
+	 	
+	</script>
+
+
+
+
+
+
+</body>
+</html>

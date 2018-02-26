@@ -1,0 +1,25 @@
+[ 2016-07-02T11:29:05+08:00 ] 127.0.0.1 /my/tpzol/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0817s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0558s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0076s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007642s ]
+SQL: SELECT * FROM `category` WHERE ( pid=0 ) LIMIT 5   [ RunTime:0.0016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002759s ]
+

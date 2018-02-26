@@ -1,0 +1,34 @@
+.ng-cloak{
+	display: none;
+}
+.mobile{
+	border:solid 1px #999;
+	height:400px;
+	width:350px;
+	position: relative;
+}
+.mobile .box{
+	/*position: absolute;
+	bottom: 0px;*/
+}
+.mobile dl{
+	bottom: 0px;
+	height:350px;
+	display: flex;
+	align-items: flex-end;
+}
+.mobile dl dt{
+	flex: 1;
+	float:left;
+	position: relative;
+}
+.mobile dl dt ul{
+	position: absolute;
+	bottom: 0px;
+}
+
+.topMenu{
+	border:solid 1px #999;
+	height: auto;overflow: hidden;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,9 @@
+[ 2016-07-08T14:28:44+08:00 ] 127.0.0.1 /myProject/tpzol/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'c65_pangyou'@'@localhost' (mot de passe: OUI)
+

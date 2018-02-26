@@ -1,0 +1,40 @@
+#drag{ 
+    position: relative;
+    width: 440px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+#drag .handler{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+.handler_bg{
+
+    background: #fff url(../images/index.png) no-repeat center;
+}
+.handler_ok_bg{
+    background: #fff url(../images/ok.png) no-repeat center;
+}
+#drag .drag_bg{
+    background-color: #7ac23c;
+    height: 42px;
+    width:440px;
+}
+#drag .drag_text{
+    /*background:#E8E8E8;*/
+    position: absolute;
+    top: 0px;
+    width: 440px;
+    height: 42px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -o-user-select:none;
+    -ms-user-select:none; 
+}

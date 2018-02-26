@@ -1,0 +1,633 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+i{
+    list-style: none;
+}
+input{
+    list-style: none;
+    border: none;
+}
+//字体设置
+//样式开始
+//页头开始
+#header{
+//  外100%开始
+    .h_outer{
+        width: 100%;
+        height:30px ;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #e6e6e6;
+//      页头的公共样式设置开始
+        font:12px arial;
+        a:hover{
+            text-decoration: underline;
+            color: #CC0000;
+        }
+//      页头的公共样式结束
+//      内宽开始
+        .h_inside{
+            margin: 0 auto;
+            width: 1200px;
+            height: 30px;
+//          左侧登录开始
+            .login{
+                float: left;
+                line-height: 30px;
+//              商城首页设置
+                .l_home{
+                    a{
+                         color: #707070;
+                    }
+                }
+//              商城首页设置结束
+//              span的公共样式开始
+                span{
+                    padding-right: 20px;
+                    a{
+                        color: #557FD3;
+                    }
+                }
+//              span的公共样式结束
+            }
+//          左侧登录结束
+//          左侧导航开始
+            .menu{
+                float: right;
+                height: 30px;
+                a{
+                    color: #6A6A6A;
+                }
+                a:hover{
+                     color: #CC0000;
+                }
+                ul{
+                    line-height: 30px;
+                    li{
+                        float: left;
+                        margin: 0 10px;
+                    }
+//                  手机商城
+                    .li_phone{
+                        padding: 0 0px 0 20px;
+                        text-align: center;
+                        background: url(../images/01.png) no-repeat;
+                    }
+                }
+            }
+//          左侧导航结束
+        }
+//      内宽结束
+    }
+//  外100%结束
+}
+//页头结束
+    //搜索开始
+    #search{
+        width: 1200px;
+        height: 92px;
+        padding: 25px 0 0;
+        margin: 0 auto;
+    //  logo开始
+        .logo{
+            width: 180px;
+            height: 50px;
+            float: left;
+        }
+    //  logo结束
+        p{
+            float: left;
+            margin: 3px 0 0 10px;
+            padding: 0 0 0 10px;
+            border-left: 1px solid #eee;
+            font: 14px "microsoft yahei";
+            width: 165px;
+            height: 44px;
+            line-height: 44px;
+        }
+    //  搜索框开始
+        .search_box{
+            width: 540px;
+            height: 73px;
+            padding: 12px 0 0 56px;
+            float: left;
+            .s_text{
+                width: 447px;
+                height: 32px;
+                border: 2px solid #C40000;
+                float: left;
+            }
+            .s_sub{
+                float: left;
+                width: 89px;
+                height: 36px;
+                background-color: #C40000;
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 900;
+            }
+            span{
+                display: block;
+                width: 540px;
+                height: 20px;
+                margin-top: 10px;
+                float: left;
+                a{
+                    float: left;
+                    color: #999999;
+                    font-size: 12px;
+                    margin-right: 15px;
+                }
+                a:hover{
+                    color: #CC0000;
+                    text-decoration: underline;
+                }
+            }
+        }
+    //  搜索框结束
+        .r_logo{
+            width: 180px;
+            height: 60px;
+            float: right;
+        }
+    }
+    //搜索结束
+//  导航栏开始
+    .nav_box{
+        width: 1200px;
+        height: 34px;
+        margin: 0 auto;
+        line-height: 34px;
+        border-bottom: 2px solid #c40000;
+//      商品分类开始
+        h2{
+            display: inline-block;
+            width: 200px;
+            height: 34px;
+            text-align: center;
+            background-color: #c40000;
+            font: 14px "微软雅黑";
+            color:#FFFFFF ;
+            line-height: 34px;
+            float: left;
+        }
+//      商品分类结束
+//      导航栏开始
+        ul{
+            float: left;
+           
+            li{
+                float: left;
+                padding: 0 20px;
+                font: 16px "微软雅黑" ;
+                font-weight: 400;
+                 line-height: 34px;
+                a{
+                    color: #000000;
+                }
+            }
+            .color_red{
+                color: #FF3333;
+            }
+        }
+//      导航栏结束
+//      主导航开始
+//      右侧推荐开始
+        .n_r{
+            float: right;
+            font: 16px "微软雅黑";
+            color:  #f33;
+            line-height: 34px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+//      右侧推荐结束
+    }
+//  导航栏结束
+//  主导航开始
+#nav{
+    width: 1200px;
+    height: 410px;
+    margin: 0 auto;
+    position: relative;
+//  主导航左侧开始
+    .nav_l{
+        float: left;
+        height: 410px;
+        width: 198px;
+        border-left: 1px solid;
+        ul{
+            height: 341px;
+            background-color:#2D2D2D;
+            float: left;
+            li{
+                width: 168px;
+                height: 38px;
+                border-bottom: 1px solid #3D3D3D;
+                padding: 0 0 0 31px;
+                float: left;
+                line-height: 38px;
+                color: #FFFFFF;
+                .a1{
+                    font: 12px "微软雅黑";
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    
+                }
+                &:hover{
+                    background-color:#FFFFFF;
+                    color:#2D2D2D ;
+                    .a1{
+                         color:#2D2D2D ;
+                    }
+                }
+                &:hover .box{
+                    display: block;
+                }
+                .box{
+                    
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 199px;
+                    padding: 5px 30px;
+                    width: 690px;
+                    height: 399px;
+                    background: #fff;
+                    background: rgba(255,255,255,0.98);
+                    border-right: 1px solid #e6e6e6;
+                    border-bottom: 1px solid #e6e6e6;
+                    -wekit-box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+                    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+                    z-index: 10;
+                    a{
+                        margin: 0 8px;
+                        color: #333;
+                        white-space: nowrap;
+                    }
+                    dl{
+                        position: relative;
+                        zoom: 1;
+                        padding: 15px 0 20px 68px;
+                        font: 12px/26px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                        border-bottom: 1px solid #eee;
+                        dt{
+                            position: absolute;
+                            top: 15px;
+                            left: 0;
+                            font-weight: bold;
+                        }
+                        dd{
+                            color: #d3d3d3;
+                        }
+                    }
+                    .service{
+                        padding: 15px 0 8px 68px;
+                        border: 0 none;
+                    }
+                }
+            }
+        }
+//      表开始
+        img{
+            width: 199px;
+            height: 70px;
+        }
+//      表结束
+     }
+//  主导航左侧结束
+//  主导航轮播图开始
+    .nav_m{
+        width: 740px;
+        height: 400px;
+        margin: 10px 7px 0 10px;
+        float: left;
+        .lunbo{
+            overflow: hidden;
+            width: 740px;
+            height: 400px;
+            position: relative;
+            ul{
+                width:5180px ;
+                height: 400px;
+                position: absolute;
+                li{
+                    float: left;
+                }
+            }
+        }
+    }
+//  主导航轮播图结束
+//  主导航右侧开始
+    .nav_r{
+        width: 240px;
+        height: 407px;
+        float: right;
+        background-color: #FFFFFF;
+//      商城公告开始
+        .notice{
+            width: 199px;
+            height: 152px;
+            margin: 10px 0 0;
+            padding: 15px 20px;
+            border: 1px solid #EDEDED;
+            h5{
+                font: 14px "微软雅黑";
+            }
+            ul{
+                padding: 8px 0 0;
+                li{
+                    margin-bottom: 8px;
+                    a{
+                        color: #666;
+                        font: 12px "微软雅黑";
+                    }
+                }
+            }
+        }
+//      商城公告结束
+    }
+//  主导航右侧结束
+}    
+//主导航结束
+//内容主体开始
+#content{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+//  精品团购开始
+//  标题开始
+    .boutique{
+        margin-top: 25px;
+        height: 40px;
+        h2{
+            display: inherit;
+            width: 200px;
+            height: 46px;
+            font:1.5em Arial;
+            font-weight: 700;
+            color: #333;
+            float: left;
+            color: #6A6A6A;
+        }
+        span{
+            display: block;
+            float: right;
+            line-height: 40px;
+            a{
+                color: #6A6A6A;
+                font: 12px "微软雅黑";
+                &:hover{
+                    color: #D21F1F;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+//  标题结束
+//  商品开始
+    .goods{
+        width: 1200px;
+        height: 180px;
+        margin-bottom: 20px;
+        ul{
+            float: left;
+            li{
+                float: left;
+                border-bottom: 1px solid #EDEDED;
+                border-top: 1px solid #EDEDED;
+                border-left: 1px solid #FFFFFF;
+                border-right: 1px solid #FFFFFF;
+                img{
+                    width: 298px;
+                    height: 180px;
+                     float: left;
+                }
+                &:hover{
+                    border-bottom: 2px solid #FF3333;
+                    border-left: 1px solid #EDEDED;
+                    border-right: 1px solid #EDEDED;
+                }
+            }
+        }
+    }
+//  商品结束
+//  精品团购结束
+//  特色购开始
+    .feature{
+        width: 1200px;
+        overflow: hidden;
+        .title{
+            height: 46px;
+            font:1.5em Arial;
+            font-weight: 700;
+            color: #6A6A6A;
+            line-height: 46px;
+        }
+        .feature_g{
+//          左侧
+            .feature_g_l{
+                width: 200px;
+                height: 372px;
+                float: left;
+            }
+//          中间
+            .feature_g_m{
+                width: 370px;
+                float: left;
+
+            }
+//          右侧
+            .feature_g_r{
+                float: left;
+                width: 628px;
+                height: 369px;
+                ul{
+                    border-bottom: 1px solid;
+                    li{
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+//  特色购结束
+//  广告开始
+    .ad{
+        overflow: hidden;
+        width: 1200px;
+        height: 90px;
+        margin: 20px 0 20px 0;
+    }
+//  广告结束
+//  楼层开始
+    .f{
+        width: 1200px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        .f_goods{
+            float: left;
+            height: 485px;
+            .f_goods_l{
+                width: 360px;
+                height: 420px;
+                float: left;
+            }
+            .f_goods_m{
+                width: 420px;
+                border-top: 1px solid #EDEDED;
+                float: left;
+                .m_lunbo{
+                    overflow: hidden;
+                    width: 419px;
+                    height: 209px;
+                    border-right: 1px solid #EDEDED;
+                    border-bottom: 1px solid #EDEDED;
+                    ul{
+                        width:1257px ;
+                        li{
+                            float: left;
+                            width: 419px;
+                            height: 209px;
+                            img{
+                                width: 419px;
+                                height: 209px;
+                            }
+                        }
+                    }
+                }
+                .m_box{
+                    width: 422px;
+                    li{
+                        width: 160px;
+                        height: 193px;
+                        padding: 16px 25px 0 24px;
+                        float: left;
+                        border-right: 1px solid #EDEDED;
+                        border-bottom: 1px solid #EDEDED;
+                        img{
+                            width: 160px;
+                            height: 120px;
+                            margin-top: 15px;
+                            position: relative;
+                        }
+                        P{
+                            font: 14px "微软雅黑";
+                            color: red;      
+                            a{
+                               font: 14px "微软雅黑";
+                               color: #000000; 
+                               &:hover{
+                                   color: red;
+                                   text-decoration: underline;
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+            .f_goods_r{
+                width: 420px;
+                border-top: 1px solid #EDEDED;
+                float: left;
+                .r_box{
+                    width: 422px;
+                    li{
+                        width: 160px;
+                        height: 193px;
+                        padding: 16px 25px 0 24px;
+                        float: left;
+                        border-right: 1px solid #EDEDED;
+                        border-bottom: 1px solid #EDEDED;
+                        img{
+                            width: 160px;
+                            height: 120px;
+                            margin-top: 15px;
+                            position: relative;
+                            right: 0px;
+                            
+                        }
+                        P{
+                            font: 14px "微软雅黑";
+                            color: red;
+                            height: 19px;
+                            overflow: hidden;
+                            a{
+                               font: 14px "微软雅黑";
+                               color: #000000; 
+                               &:hover{
+                                   color: red;
+                                   text-decoration: underline;
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+//          底部品牌
+            .brand{
+                width: 1200px;
+                height: 63px;
+                border: 1px solid #EDEDED ;
+                border-top: none;
+                float: left;
+                ul{
+                    padding: 0px 10px;
+                    li{
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+//  楼层结束
+}
+//内容主体结束
+//底部开始
+#footer{
+    .footer_outer{
+        width: 100%;
+        border-top: 1px solid #D9D9D9;
+        .footer_inside{
+            width: 1200px;
+            margin: 0 auto;
+            .footer_server{
+                width: 1200px;
+                height: 110px;
+                border-bottom: 1px solid #D9D9D9;
+                text-align: center;
+            }
+        }
+    }
+    .footer_nav{
+        width: 100%;
+        height: 224px;
+        background-color: #2D2D2D;
+        .footer_nav_inside{
+            width: 1200px;
+            margin: 0 auto;
+            padding: 25px 0 30px;
+            p{
+                height: 20px;
+                color: #ccc;
+                font: 12px "微软雅黑";
+                margin-bottom: 30px;
+                a{
+                    padding:10px 10px ;
+                    color: #FFFFFF;
+                    font: 12px "微软雅黑";
+                }
+            }
+        }
+    }
+    
+}
+//底部结束

@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta  mid='http://www.yeahzan.com/zanblog/'>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<title>响应式blog</title>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.min.js"/>
+</head>
+<body>
+	<header>
+		<nav>
+			<div id="container-fluid">
+				<div class="nav-box container">
+					<div class="l logo"></div>
+					<ul class="ul">
+						<li class="dropdown li">
+							<a href=""><i class='fa fa-home'></i>首页</a>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class="fa fa-cog"></i>相关技术
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">Bootstrap3</a>
+								</li>
+								<li>
+									<a href="">WordPress</a>
+								</li>
+								<li>
+									<a href="">FontAwesome</a>
+								</li>
+								<li>
+									<a href="">扁平化设计</a>
+								</li>
+								<li>
+									<a href="">响应式布局</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class=" fa fa-download"></i>
+								相关下载
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href=""><i class="fa fa-heart"></i>
+										主题下载
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-wrench"></i>
+										插件包下载
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-gift"></i>
+										ZanUI下载
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class="fa fa-question-circle"></i>  
+								问题板块
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">
+										<i class="fa fa-info-circle"></i>
+										常见问题
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-pencil"></i>
+										 问题反馈
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-wrench"></i>
+										 使用说明及插件设置
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-cog"></i>
+										  侧边栏与导航设置
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class="fa fa-magic"></i>
+								样式参考
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">按钮CSS样式</a>
+								</li>
+								<li>
+									<a href="">背景框CSS样式</a>
+								</li>
+								<li>
+									<a href="">文本引用CSS样式</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;"><i class="fa fa-star"></i>图标参考</a>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;"><i class="fa fa-book"></i>更新日志</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">V2.0.0</a>
+								</li>
+								<li>
+									<a href="">V2.0.1</a>
+								</li>
+								<li>
+									<a href="">V2.0.2</a>
+								</li>
+								<li>
+									<a href="">V2.0.3</a>
+								</li>
+								<li>
+									<a href="">V2.0.4</a>
+								</li>
+								<li>
+									<a href="">V2.0.5</a>
+								</li>
+								<li>
+									<a href="">V2.0.6</a>
+								</li>
+								<li>
+									<a href="">V2.0.7</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="ul hids_nav">
+						<li class="dropdown li">
+							<a href=""><i class='fa fa-home'></i>首页</a>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class="fa fa-cog"></i>相关技术
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">Bootstrap3</a>
+								</li>
+								<li>
+									<a href="">WordPress</a>
+								</li>
+								<li>
+									<a href="">FontAwesome</a>
+								</li>
+								<li>
+									<a href="">扁平化设计</a>
+								</li>
+								<li>
+									<a href="">响应式布局</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class=" fa fa-download"></i>
+								相关下载
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href=""><i class="fa fa-heart"></i>
+										主题下载
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-wrench"></i>
+										插件包下载
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-gift"></i>
+										ZanUI下载
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class="fa fa-question-circle"></i>  
+								问题板块
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">
+										<i class="fa fa-info-circle"></i>
+										常见问题
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-pencil"></i>
+										 问题反馈
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-wrench"></i>
+										 使用说明及插件设置
+									</a>
+								</li>
+								<li>
+									<a href=""> 
+										<i class="fa fa-cog"></i>
+										  侧边栏与导航设置
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;">
+								<i class="fa fa-magic"></i>
+								样式参考
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">按钮CSS样式</a>
+								</li>
+								<li>
+									<a href="">背景框CSS样式</a>
+								</li>
+								<li>
+									<a href="">文本引用CSS样式</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;"><i class="fa fa-star"></i>图标参考</a>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:;"><i class="fa fa-book"></i>更新日志</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">V2.0.0</a>
+								</li>
+								<li>
+									<a href="">V2.0.1</a>
+								</li>
+								<li>
+									<a href="">V2.0.2</a>
+								</li>
+								<li>
+									<a href="">V2.0.3</a>
+								</li>
+								<li>
+									<a href="">V2.0.4</a>
+								</li>
+								<li>
+									<a href="">V2.0.5</a>
+								</li>
+								<li>
+									<a href="">V2.0.6</a>
+								</li>
+								<li>
+									<a href="">V2.0.7</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<p>
+						<i id="click" class="fa fa-reorder fa-lg"></i>
+					</p>
+				</div>
+				<div class="logo-right">
+					<i class="fa fa-thumb-tack"></i>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div id="content-box">
+			<div class="container">
+				<div class="row">
+					<div class="left col-md-8">
+						<!--公告-->
+						<div class="well">
+							<a href="javascript:;" class="close">x</a>
+							<p>欢迎使用由<a href="">佚站互联</a>提供的<strong>Zanblog主题</strong>，如有问题可以查看问题板块中的内容或者加入Zanblog官方1群：223133969(已满) Zanblog官方2群：308484218<i class="fa fa-smile-o"></i></p>
+						</div>
+						<!--轮播图    后期修改-->
+						<div class="imgscroll">
+							<img src="./images/zanblog3.jpg" alt="" />
+						</div>
+						<div class="arcticle-list">
+							<article>
+								<!--文章左右网络图标-->
+								<div class="arc well clearfix">
+									<div class="arc-left">
+										<span class="month">9月</span>
+										<span class="day">13</span>
+									</div>
+									<i class="fa fa-bookmark arc-right"></i>
+								<!--文章内容-->
+								<section>
+									<div class="arc-title">
+										<h1><a href="">Zanblog 更新至V2.1.0</a></h1>
+										<div class="arc-tag">
+											<span class="label">
+												<i class="fa fa-tags"></i>
+												<a href="">Zanblog</a>
+											</span>
+											<span class="label">
+												<i class="fa fa-user"></i>
+												<a href="">佚站互联</a>
+											</span>
+											<span class="label">
+												<i class="fa fa-eye"></i>
+												<a href=""> 15,462</a>
+											</span>
+										</div>
+									</div>
+									<div class="arc-img">
+										<img src="./images/car5.jpg"/>
+									</div>
+									<div class="alert">HI，Zanblog再次更新了。
+我们希望Zanblog能够满足大多数朋友对于博客的需求，所以我们会尽可能根据大家的反馈再对主题进行修改。
+让我们一起看看 2.0.4 版本所做的变动吧！1.通过HTML5对导航栏的固定状态进行本地存储，保证刷新页面之后该状态仍旧保留。
+2.修正了...</div>
+									<a class="btn btn-danger pull-right read-more" href="">阅读全文  <span class="badge">42</span></a>
+								</section>
+								</div>
+							</article>
+							<article>
+								<!--文章左右网络图标-->
+								<div class="arc well clearfix">
+									<div class="arc-left">
+										<span class="month">10月</span>
+										<span class="day">30</span>
+									</div>
+									<i class="fa fa-bookmark arc-right"></i>
+								<!--文章题目-->
+								<section>
+									<div class="arc-title">
+										<h1><a href="">Zanblog 2.0.6 版本更新 </a></h1>
+										<div class="arc-tag">
+											<span class="label">
+												<i class="fa fa-tags"></i>
+												<a href="">Zanblog</a>
+											</span>
+											<span class="label">
+												<i class="fa fa-user"></i>
+												<a href="">佚站互联</a>
+											</span>
+											<span class="label">
+												<i class="fa fa-eye"></i>
+												<a href="">16,210</a>
+											</span>
+										</div>
+									</div>
+									<!--文章图片-->
+									<div class="arc-img">
+										<img src="./images/car3.jpg"/>
+									</div>
+									<!--文章内容-->
+									<div class="alert">				
+										HI，Zanblog再次更新了。
+										我们希望Zanblog能够满足大多数朋友对于博客的需求，所以我们会尽可能根据
+										大家的反馈再对主题进行修改。让我们一起看看 2.0.6 版本所做的变动吧！
+										1.加入相关文章模块
+										2.添加文章上一篇、下一篇的功能
+										3.将fontawesome图标更新为最新版本4.0...</div>
+									<a class="btn btn-danger pull-right read-more" href="">阅读全文  <span class="badge">117</span></a>
+								</section>
+								</div>
+							</article>
+						</div>
+						<!--分页-->
+						<nav>
+							<div id="page">
+								<ul class="pagination pagination-zan r clearfix">
+									<li class="now"><a href="">1</a></li>
+									<li><a href="">2</a></li>
+									<li><a href="">3</a></li>
+									<li><a href="">4</a></li>
+									<li><a href="">>></a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<aside>
+						<div class="right col-md-4">
+							<!--登录部分-->
+							<div class="panel panel-zan dv">
+								<div class="panel-heading">请登录</div>
+								<form action="" class="login-form clearfix">
+									<div class="form-group">
+										<div class="input-group">
+											<div class="input-group-addon">
+												<i class="fa fa-user"></i>
+											</div>
+											<input type="text" class="form-control" name="nickname" />
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group">
+											<div class="input-group-addon">
+												<i class="fa fa-lock"></i>
+											</div>
+											<input type="text" class="form-control" name="password" />
+										</div>
+									</div>
+									<button type="submit" name="login" class="btn btn-inverse-primary pull-left">登录</button>
+									<a href="" name="reg" class="btn btn-inverse-primary pull-right">注册</a>
+								</form>
+							</div>
+							<!--搜索区域-->
+							<div class="dv search">
+								<form action="" class="form-inline clearfix">
+									<input type="text" name="search" id="" class="form-control" value="" placeholder="搜索..." />
+									<button type="submit" name="submit" class="btn btn-danger btn-small">
+										<i class="fa fa-search"></i>
+									</button>
+								</form>
+							</div>
+							<!--热门文章-->
+							<div class="dv hot">
+								<div class="panel">
+									<div class="panel-heading">
+										<i class="fa fa-fire"></i>
+										最热文章
+										<i class="fa fa-times-circle panel-remove r close-arc"></i>
+										<i class="fa fa-chevron-circle-up panel-toggle r open-arc"></i>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<span class="arc-title">
+												<a href="">Zanblog 2.0.7（稳定版）更新</a>
+											</span>
+											<span class="badge">51,803</span>
+										</li>
+										<li class="list-group-item">
+											<span class="arc-title">
+												<a href="">Zanblog 2.0.7（稳定版）更新</a>
+											</span>
+											<span class="badge">51,803</span>
+										</li>
+										<li class="list-group-item">
+											<span class="arc-title">
+												<a href="">Zanblog 2.0.7（稳定版）更新</a>
+											</span>
+											<span class="badge">51,803</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--最新评论-->
+							<div class="dv comment">
+								<div class="panel">
+									<div class="panel-heading">
+										<i class="fa fa-comments"></i>
+										最新评论
+										<i class="fa fa-times-circle panel-remove r close-arc"></i>
+										<i class="fa fa-chevron-circle-up panel-toggle r open-arc"></i>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<span class="arc-author">
+												<img src="./images/1.png" alt="" />
+											</span>
+											<span class="comment-log">
+												<a href="">你好！请问下位置首页文章表情下的阅读全文数量一直为0
+	能帮我看下吗谢谢!</a>
+											</span>
+										</li>
+										<li class="list-group-item">
+											<span class="arc-author">
+												<img src="./images/2.png" alt="" />
+											</span>
+											<span class="comment-log">
+												<a href="">为什么 我这边 点开 子分类的 文章  
+	标题上面主目录并没有 变成红色 也就是高亮...</a>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--分类显示-->
+							<div class="dv cate-show">
+								<div class="panel">
+									<ul class="cate clearfix">
+										<li class="l now">
+											<a data-toggle='tab' href="javascript:;">分类目录</a>
+										</li>
+										<li class="l">
+											<a  data-toggle='tab'href="javascript:;">热门标签</a>
+										</li>
+										<li class="l">
+											<a data-toggle='tab' href="javascript:;">友情链接</a>
+										</li>
+									</ul>
+									<div class="content-tab">
+										<div class="son now">
+											<li><a href="">Bootstrap3</a></li>
+											<li><a href="">WordPress</a></li>
+											<li><a href="">Zanblog</a></li>
+										</div>
+										<div class="son second">
+											<a href="">Bootstrap3</a>
+											<a href="">WordPress</a>
+											<a href="">Zanblog</a>
+											<a href="">ZanUI</a>
+											<a href="">主题设置</a>
+										</div>
+										<div class="son">
+											<li><a href="">Bootstrap教程</a></li>
+											<li><a href="">WordPress教程</a></li>
+											<li><a href="">杭州网站建设</a></li>
+											<li><a href="">网站建设</a></li>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</aside>
+					
+					
+					
+					
+				</div>
+			</div>
+			
+		</div>
+	</main>
+	
+	<footer>
+		<div id="foot">
+			<div class="container">
+				Copyright © 2013
+				<a href="">佚站互联</a>
+				YEAHZAN.COM - 用心创造每一站, 
+				<a href="">杭州网站建设</a>
+				. All Rights Reserved.	Theme By 
+				<a href="">Peter</a>
+				<a href="">
+					<img src="./images/25.gif" alt="" />
+				</a>
+			</div>
+		</div>
+	</footer>
+	<!--回到顶部-->
+	<div id="back">
+		<i class="fa fa-angle-up"></i>
+	</div>
+	<script type="text/javascript" src="./js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var c = 1;
+			//点击出现菜单
+			$('#click').click(function(){
+				if(c ==1){
+					$('.hids_nav').slideToggle();
+					$('.hids_nav li').css({float:'none'});
+					$('.logo').css({float:'none'});
+					$('.hids_nav').css({float:'none'});
+					c = 0;
+				}else{
+					$('.hids_nav').slideToggle();
+					c = 1;
+				}
+			})
+//			窗口事件
+			window.onresize = function(){
+				var w = document.documentElement.clientWidth;
+//				document.title = w;
+				if(w>974){
+					$('.logo').css({float:'left'});
+				}else if(752<w<974){
+					$('.logo').css({float:'none'});
+				}
+			}
+			//点击关闭广告
+			$('.close').click(function(){
+				$(this).parents('.well').css({display:'none'});
+			})
+			
+			
+			//点击消失 最新文章,最新评论
+			$('.close-arc').click(function(){
+				$(this).parents('.dv').toggle(300);
+			})
+			//点击收放  最新文章,最新评论
+			$('.open-arc').click(function(){
+				$(this).parents('.dv').find('.list-group').slideToggle(300);
+			})
+			
+			
+			
+			
+			//点击显示热门文章,最新评论  tab切换效果
+			$('.cate .l').click(function(){
+				var num = $(this).index();
+				$('.content-tab .son').eq(num).addClass('now').siblings('.son').removeClass('now');
+				$(this).addClass('now').siblings('.l').removeClass('now');
+				$(this).find('a').css({textDecoration:'none'});
+			})
+			//滚动到一定距离,  回到顶部出现
+			$(document).scroll(function() {  
+ 				var p = $(window).scrollTop();
+ 				if(p>300){
+ 					$('#back').fadeIn(500);
+ 				}else{
+ 					$('#back').fadeOut(500);
+ 				}
+			})
+			//回到顶部
+			$('#back').click(function(){
+				return jQuery("body,html").animate({
+				    scrollTop: 0
+				}, 500), !1
+			})	
+		})
+	</script>
+</body>
+</html>

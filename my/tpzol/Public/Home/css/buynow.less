@@ -1,0 +1,504 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+i{
+    list-style: none;
+}
+input{
+    list-style: none;
+    border: none;
+}
+table{
+    border: none;
+}
+//字体设置
+//样式开始
+//页头开始
+#header{
+//  外100%开始
+    .h_outer{
+        width: 100%;
+        height:30px ;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #e6e6e6;
+//      页头的公共样式设置开始
+        font:12px arial;
+        a:hover{
+            text-decoration: underline;
+            color: #CC0000;
+        }
+//      页头的公共样式结束
+//      内宽开始
+        .h_inside{
+            margin: 0 auto;
+            width: 1200px;
+            height: 30px;
+//          左侧登录开始
+            .login{
+                float: left;
+                line-height: 30px;
+//              商城首页设置
+                .l_home{
+                    a{
+                         color: #707070;
+                    }
+                }
+//              商城首页设置结束
+//              span的公共样式开始
+                span{
+                    padding-right: 20px;
+                    a{
+                        color: #557FD3;
+                    }
+                }
+//              span的公共样式结束
+            }
+//          左侧登录结束
+//          左侧导航开始
+            .menu{
+                float: right;
+                height: 30px;
+                a{
+                    color: #6A6A6A;
+                }
+                a:hover{
+                     color: #CC0000;
+                }
+                ul{
+                    line-height: 30px;
+                    li{
+                        float: left;
+                        margin: 0 10px;
+                    }
+//                  手机商城
+                    .li_phone{
+                        padding: 0 0px 0 20px;
+                        text-align: center;
+                        background: url(../images/01.png) no-repeat;
+                    }
+                }
+            }
+//          左侧导航结束
+        }
+//      内宽结束
+    }
+//  外100%结束
+}
+//页头结束
+    //搜索开始
+    #search{
+        width: 1200px;
+        height: 117px;
+        padding: 25px 0 0;
+        margin: 0 auto;
+        overflow: hidden;
+    //  logo开始
+        .logo{
+            width: 180px;
+            height: 50px;
+            float: left;
+        }
+    //  logo结束
+        p{
+            float: left;
+            margin: 3px 0 0 10px;
+            padding: 0 0 0 10px;
+            border-left: 1px solid #eee;
+            font: 14px "microsoft yahei";
+            width: 165px;
+            height: 44px;
+            line-height: 44px;
+        }
+    //  搜索框开始
+        .search_box{
+            width: 600px;
+            height: 73px;
+            padding: 12px 0 0 56px;
+            float: left;
+            .s_text{
+                width: 447px;
+                height: 36px;
+                border: 2px solid #C40000;
+                float: left;
+            }
+            .s_sub{
+                float: left;
+                width: 89px;
+                height: 36px;
+                background-color: #C40000;
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 900;
+            }
+            span{
+                display: block;
+                width: 540px;
+                height: 20px;
+                margin-top: 10px;
+                float: left;
+                a{
+                    float: left;
+                    color: #999999;
+                    font-size: 12px;
+                    margin-right: 15px;
+                }
+                a:hover{
+                    color: #CC0000;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .flow{
+            float: right;
+            ul{
+                width: 402px;
+                height: 38px;
+                margin: 0;
+                li{
+                    height: 36px;
+                    width: 100px;
+                    padding: 0 14px 0 0;
+                    float: left;
+                    font: 14px/36px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                    text-align: center;   
+                }
+                .s_1{
+                    background: url(../images/50.png) no-repeat 86px -36px ;
+                    background-position: 100% -37px;
+                    background-color: #E02D2D;
+                    color: #FFFFFF;
+                }
+                .s_2{
+                    background: url(../images/50.png) no-repeat 86x 0px ;
+//                  background-position: 100% -37px;    
+                    background-color: #E6E6E6;
+                    color: #000;
+                }
+                .s_3{
+                    background: url(../images/50.png) no-repeat 86x 0px ;
+//                  background-position: 100% -37px;    
+                    background-color: #E6E6E6;
+                    color: #000;
+                }
+                .s_4{
+                    background: url(../images/50.png) no-repeat 86x 0px ;
+//                  background-position: 100% -37px;    
+                    background-color: #E6E6E6;
+                    color: #000;
+                }
+            }
+        }
+    }
+    //搜索结束
+//  内容开始
+    #content{
+        width: 960px;
+        margin: 0 auto;
+        overflow: hidden;
+//      地址开始
+        .site{
+            width: 960px;
+//          height: 315px;
+            .title{
+                height: 40px;
+                width: 960px;
+                border: 1px solid #EBEBEB;
+                h2{
+                    margin: 0;
+                    width: 100px;
+                    font: bold 16px/40px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                    float: left;
+                }
+                a{
+                    display: block;
+                    width: 100px;
+                    height: 40px;
+                    float: right;
+                    line-height: 40px;
+                    font: bold 12px/40px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                }
+            }
+            .form{
+                width: 960px;
+                background-color:#F7F7F7 ;
+                color: #666;
+                padding: 6px 88px 6px 10px;
+                
+                form{
+                    width: 862px;
+                    padding: 15px 0 5px 22px;
+                    margin: 0;
+                    overflow: hidden;
+                    dt{
+                        float: left;
+                        width: 75px;
+                        height: 26px;
+                        line-height: 26px;
+                        font: 12px/26px "Arial";
+                        color: #666;
+                        margin-bottom: 10px;
+                        span{
+                            color: red;
+                            padding-right: 8px;
+                            font: 16px/26px "Arial";
+                            display: block;
+                            width: 14px;
+                            height: 26px;
+                            float: left;
+                            line-height: 26px;
+                        }
+                    }
+                    dd{
+                        margin-bottom: 10px;
+                        .name{
+                            width: 130px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .dizhi{
+                            width: 350px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .phone{
+                            width: 130px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .post{
+                            width: 130px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .sub{
+                            display: inline-block;
+                            text-align: center;
+                            line-height: 30px;
+                            width: 120px;
+                            height: 30px;
+                            background: #DE3030;
+                            color: #FFFFFF;
+                            font-weight: 900;
+                            font: 14px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                
+            }
+            .table{
+                margin-top:10px ;
+                tr{
+//                  width: 928px;
+                    td{
+                        text-align: center;
+                        color: #666;
+                        height: 63px;
+                        font-size: 12px;
+                    }
+                    th{
+                        text-align: center;
+                        background: #f7f7f7;
+                        height: 39px;
+                        line-height: 39px;
+                    }
+                    .cell1{
+                        width: 89px;
+                    }
+                    .cell2{
+                        width: 180px;
+                    }
+                    .cell3{
+                        width: 320px;
+                    }
+                    .cell4{
+                        width: 121px;
+                    }
+                    .cell5{
+                        width: 121px;
+                    }
+                    .cell6{
+                        width: 142px;
+                    }
+                }
+            }
+        }
+//      地址结束
+//      订单信息开始
+        .order{
+            width: 960px;
+            height: 370px;
+            .title{
+                height: 40px;
+                width: 960px;
+                border: 1px solid #EBEBEB;
+                h2{
+                    margin: 0;
+                    width: 100px;
+                    font: bold 16px/40px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                }
+            }
+//          表单开始
+            table{
+                tr{
+                    th{
+                        padding: 0 10px;
+                        font: 12px/34px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                        text-align: center;
+                        border-bottom: 2px solid #c0daf8;
+                    }
+                    .t1{
+                        width: 319px;
+                        height: 35px;
+                    }
+                    .t2{
+                        width: 183px;
+                        height: 35px;
+                    }
+                    .t3{
+                        width: 133px;
+                        height: 35px;
+                    }
+                    .t4{
+                        width: 174px;
+                        height: 35px;
+                    }
+                    .t5{
+                        width: 151px;
+                        height: 35px;
+                    }
+                    td{
+                        background: #fbfcff;
+                        text-align: center;
+                    }
+                    .td1{
+                            width: 300px;
+                            height: 100px;
+                            padding: 20px 10px;
+                            span{
+                                display: table-cell;
+                                width: 80px;
+                                height: 80px;
+                                border: 1px solid #ebeffa;
+                                background: #fff;
+                                float: left;
+                            }
+                            p{
+                                font: 12px/18px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                            }
+                            ul{
+                                width: 202px;
+                                height: 43px;
+                                margin: 0;
+                                li{
+                                    height: 17px;
+                                }
+                            }
+                        }
+                    .td5{
+                        color: red;
+                    }
+                    .td6{
+                        width: 960px;
+                        height: 161px;
+                        border-top: 1px solid #c0daf8;
+                        
+                        .message{
+                            width: 419px;
+                            height: 100px;
+                            float: left;
+                            label{
+                                float: left;
+                                textarea{
+                                display: block;
+                                padding: 4px 10px;
+                                width: 320px;
+                                height: 76px;
+                                border: 1px solid #cee2f8;
+                                background: #fff;
+                                font: 12px/18px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                                resize: none;
+                                color: #999;
+                                }
+                            }
+                            
+                        }
+                        .youhui{
+                            width: 300px;
+                            height: 70px;
+                            float: right;
+                            dl{
+                                width: 300px;
+                                height: 30px;
+                                dt{
+                                    width: 60px;
+                                    height: 30px;
+                                    font: 12px/30px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                                    color: #999;
+                                    float: left;
+                                    text-align: right;
+                                }
+                                dd{
+                                    float: left;
+                                    height: 30px;
+                                    line-height: 30px;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+//          表单结束
+        }
+//      订单信息结束
+        .sub_order{
+            width: 960px;
+            height: 200px;
+            padding: 32px 0 0;
+            text-align: right;
+            p{
+                height: 55px;
+                span{
+                    color: red;
+                    font-size: 30px;
+                }
+            }
+            a{
+                display: block;
+                width: 160px;
+                height: 46px;
+                background: #DC2D2D;
+                text-align: center;
+                color: #FFFFFF;
+                font-size: 18px;
+                float: right;
+                line-height: 46px;
+                &:hover{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    background:#C41D1D ;
+                }
+            }
+        }
+    }
+//  内容结束
+#foot{
+    margin: 40px auto 0;
+    padding: 5px 0 20px;
+    width: 960px;
+    text-align: center;
+    border-top: 1px solid #e3e3e3;
+    span{
+        display: block;
+        margin-bottom: 10px;
+    }
+}

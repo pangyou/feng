@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	#top{
+		width: 100%;
+		height: 800px;
+		background: url(images/9.jpg) right top;
+	}
+	.top1{
+		width: 1200px;
+		height: 151px;
+		background: url(images/10.jpg)no-repeat;
+		margin: auto;
+	}
+	.box{
+		width: 1200px;
+		height: 650px;
+		position: relative;
+		z-index: 1;
+		margin: auto;
+		background: url(images/11.jpg)no-repeat 186px 0;
+		margin-top: -50px;
+	}
+	.box1{
+		width: 456px;
+		height: 646px;
+		float: left;
+		color: #8a6249;
+		font-size: 15px;
+	}
+	.box_left,.box_right{	
+		padding-top: 100px;	
+		padding-left: 50px;
+		height: 600px;
+		margin-left:150px;
+	}
+	.box_right{
+		margin-top: 100px;
+		padding-top: 0;
+		height: 470px;
+		width: 430px;
+		margin-left: 0;
+		padding-left: 0px;
+		overflow: auto;
+		position: relative;
+	}
+	.dv{
+		width: 400px;
+		height: 150px;
+		margin-left: 40px;
+		margin-top: 5px;
+		position: relative;
+		z-index: 20;
+	}
+	.dv1{
+		overflow: auto;
+	}
+	.dv4{
+		height: 60px;
+	}
+	.dv5{
+		position: absolute;
+		bottom: 20px;
+		right: 120px;
+		height: 60px;
+	}
+	.dv4 .a1{
+		display: block;
+		width: 100px;
+		height: 60px;
+		margin-left: 280px;
+		background: url(images/1.1.jpg) no-repeat;
+	}
+	.dv4 .a1:hover{
+		background: url(images/1.jpg)no-repeat;
+	}
+	.dv5 .a2{
+		display: block;
+		width: 100px;
+		height: 60px;
+		margin-left: 20px;
+		background: url(images/2.1.jpg) no-repeat;
+	}
+	.dv5 .a2:hover{
+		background: url(images/2.jpg)no-repeat;
+	}
+	.box_right .dv{
+		margin-left: 10px;
+	}
+	#footer{
+		margin-top: -193px;
+		height: 273px;
+		background: url(images/22.png) repeat-X;
+		position: relative;
+	}
+	.footer1{
+		height: 200px;
+		width: 1200px;
+		margin: auto;
+		background: url(images/13.jpg)no-repeat;
+	}
+	.footer2{
+		width: 1200px;
+		height: 73px;
+		margin: auto;
+		background: url(images/14.jpg)no-repeat;
+		margin-top: -10px;
+	}
+	input{
+		color: #551A8B;
+		border:none;
+		font-size: 15px;
+	}
+	textarea{
+		width: 388px;
+		height: 100px;
+		margin-top: 5px;
+		border: none;
+		color: #8A6249;
+		text-indent: 10px;
+	}
+	#liuyan{
+		width: 80px;
+		height: 40px;
+		border-radius: 20px;
+		line-height: 40px;
+		color: white;
+		background: #855940;
+		float: left;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	.xiugai{
+		width: 398px;
+		height: 20px;
+	}
+	.xiugai .a1{
+		margin-left: 300px;
+	}
+</style>
+</head>
+
+<body>
+<form action="" method="post">
+	<div id="top">
+		<div class="top1"></div>
+		<div class="box">
+			<div class="box1 box_left">
+				<div class="dv dv1">
+					<input type="text" value="大家好,我是侯妹~" />
+					<textarea id="" >我是侯妹~我爱大家,三月三快乐....我是侯妹~我爱大家,三月三快乐....我是侯妹~我爱大家,三月三快乐....我是侯妹~我爱大家,三月三快乐....</textarea>
+					<div class="xiugai">
+						<a class="a1" href="">修改</a>
+						<a href="">删除</a>
+					</div>
+				</div>
+				<div class="dv dv2">
+					<input type="text" value="大家好,我是马乐~" />
+					<textarea id="" >我是马乐~我爱大家,三月三快乐....我是马乐~我爱大家,三月三快乐....我是马乐~我爱大家,三月三快乐....我是马乐~我爱大家,三月三快乐....</textarea>
+					<div class="xiugai">
+						<a class="a1" href="">修改</a>
+						<a href="">删除</a>
+					</div>
+				</div>
+				<div class="dv dv3">
+					<input type="text" name="name" value="大家好,我是" />
+					<textarea name="cont" id="" ></textarea>
+					<div class="xiugai">
+						<a class="a1" href="">修改</a>
+						<a href="">删除</a>
+					</div>
+				</div>
+				<div class="dv dv4">
+					<input type="submit" id='liuyan' title="点我留言~" value="留言" />
+					<a class="a1" href="./index.php"></a>
+				</div>	
+			</div>
+			<div class="box1 box_right">
+				<?php foreach ($data as $k => $v) {  ?>
+				<div class="dv dv1">
+					<input type="text"  value="<?php echo $v['name'] ?>" />
+					<textarea><?php echo $v['cont'] ?></textarea>
+					<div class="xiugai">
+						<a class="a1" href="./edit.php?id=<?php echo $k ?>">修改</a>
+						<a href="./del.php?id=<?php echo $k ?>">删除</a>
+					</div>
+				</div>
+				<?php } ?>
+			</div>
+			<div class="dv dv5">
+				<a class="a2" href="./2.php"></a>
+			</div>				
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footer1"></div>
+		<div class="footer2"></div>
+	</div>
+</form>
+</body>
+</html>

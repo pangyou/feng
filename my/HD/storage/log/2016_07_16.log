@@ -1,0 +1,4 @@
+[ 2016-07-16T06:29:33+08:00 ]ERROR: 7
+[ 2016-07-16T06:30:15+08:00 ]EXCEPTION: Method web\home\controller\Index::__empty() does not exist
+[ 2016-07-16T06:30:58+08:00 ]ERROR: 7
+[ 2016-07-16T06:30:59+08:00 ]ERROR: 7

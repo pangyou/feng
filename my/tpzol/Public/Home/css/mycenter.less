@@ -1,0 +1,423 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+i{
+    list-style: none;
+}
+input{
+    list-style: none;
+    border: none;
+}
+table{
+    border: none;
+}
+body{
+    background: #F8F8F8;
+}
+.xian{
+    border-bottom: 2px solid #c40000;
+    color: #c40000;
+}
+//字体设置
+//样式开始
+//页头开始
+#header{
+//  外100%开始
+    .h_outer{
+        width: 100%;
+        height:30px ;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #e6e6e6;
+//      页头的公共样式设置开始
+        font:12px arial;
+        a:hover{
+            text-decoration: underline;
+            color: #CC0000;
+        }
+//      页头的公共样式结束
+//      内宽开始
+        .h_inside{
+            margin: 0 auto;
+            width: 1200px;
+            height: 30px;
+//          左侧登录开始
+            .login{
+                float: left;
+                line-height: 30px;
+//              商城首页设置
+                .l_home{
+                    a{
+                         color: #707070;
+                    }
+                }
+//              商城首页设置结束
+//              span的公共样式开始
+                span{
+                    padding-right: 20px;
+                    a{
+                        color: #557FD3;
+                    }
+                }
+//              span的公共样式结束
+            }
+//          左侧登录结束
+//          左侧导航开始
+            .menu{
+                float: right;
+                height: 30px;
+                a{
+                    color: #6A6A6A;
+                }
+                a:hover{
+                     color: #CC0000;
+                }
+                ul{
+                    line-height: 30px;
+                    li{
+                        float: left;
+                        margin: 0 10px;
+                    }
+//                  手机商城
+                    .li_phone{
+                        padding: 0 0px 0 20px;
+                        text-align: center;
+                        background: url(../images/01.png) no-repeat;
+                    }
+                }
+            }
+//          左侧导航结束
+        }
+//      内宽结束
+    }
+//  外100%结束
+}
+//页头结束
+//头部开始
+#header{
+    width: 100%;
+    height: 55px;
+    background: #C40000;
+    .h_inside{
+        width: 960px;
+        height: 55px;
+        margin: 0 auto;
+        
+    }
+}
+//头部结束
+//内容开始
+#content{
+    width: 960px;
+    padding: 0 15px;
+    margin: 30px  auto;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    .title{
+        height: 52px;
+        border-bottom:2px solid #EBEBEB ;
+        .link_red{
+//          border-bottom: 2px solid #c40000;
+            a{
+                padding: 0 24px 2px 24px;
+                line-height: 50px;
+//              color: #c40000;
+                font-size: 18px;
+                font-weight: 900;
+                
+            }
+        }
+        li{
+            float: left;
+            color: #c40000;
+            a{
+                padding: 0 24px 2px 24px;
+                line-height: 50px;
+                color: #000000;
+                font-size: 18px;
+                font-weight: 900;
+                
+            }
+        }
+    }
+//  商品订单开始
+    .table{
+        margin-top: 20px;
+//      display: none;
+        //          表单开始
+            table{
+                
+                tr{
+                    th{
+                        padding: 0 10px;
+                        font: 12px/34px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                        text-align: center;
+                        border-bottom: 2px solid #c0daf8;
+                    }
+                    .t1{
+                        width: 319px;
+                        height: 35px;
+                    }
+                    .t2{
+                        width: 183px;
+                        height: 35px;
+                    }
+                    .t3{
+                        width: 133px;
+                        height: 35px;
+                    }
+                    .t4{
+                        width: 174px;
+                        height: 35px;
+                    }
+                    .t5{
+                        width: 151px;
+                        height: 35px;
+                    }
+                    td{
+                        background: #fbfcff;
+                        text-align: center;
+                    }
+                    .td1{
+                            width: 300px;
+                            height: 100px;
+                            padding: 20px 10px;
+                            span{
+                                display: table-cell;
+                                width: 80px;
+                                height: 80px;
+                                border: 1px solid #ebeffa;
+                                background: #fff;
+                                float: left;
+                            }
+                            p{
+                                font: 12px/18px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                            }
+                            ul{
+                                width: 202px;
+                                height: 43px;
+                                margin: 0;
+                                li{
+                                    height: 17px;
+                                }
+                            }
+                        }
+                    .td5{
+                        color: red;
+                    }
+                    .td6{
+                        width: 960px;
+                        height: 161px;
+                        border-top: 1px solid #c0daf8;
+                        
+                        .message{
+                            width: 419px;
+                            height: 100px;
+                            float: left;
+                            label{
+                                float: left;
+                                textarea{
+                                display: block;
+                                padding: 4px 10px;
+                                width: 320px;
+                                height: 76px;
+                                border: 1px solid #cee2f8;
+                                background: #fff;
+                                font: 12px/18px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                                resize: none;
+                                color: #999;
+                                }
+                            }
+                            
+                        }
+                        .youhui{
+                            width: 300px;
+                            height: 70px;
+                            float: right;
+                            dl{
+                                width: 300px;
+                                height: 30px;
+                                dt{
+                                    width: 60px;
+                                    height: 30px;
+                                    font: 12px/30px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+                                    color: #999;
+                                    float: left;
+                                    text-align: right;
+                                }
+                                dd{
+                                    float: left;
+                                    height: 30px;
+                                    line-height: 30px;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+//          表单结束
+    }
+//  商品订单结束
+//  收货地址开始
+    .site{
+         display: none;
+        .form{
+                width: 929px;
+//              height: 264px;
+                background-color:#F7F7F7 ;
+                color: #666;
+                padding: 6px 0px 6px 10px;
+                form{
+                    width: 862px;
+//                  height: 234px;
+                    padding: 15px 0 5px 22px;
+                    margin: 0;
+                    dt{
+                        float: left;
+                        width: 75px;
+                        height: 26px;
+                        line-height: 26px;
+                        font: 12px/26px "Arial";
+                        color: #666;
+                        margin-bottom: 10px;
+                        span{
+                            color: red;
+                            padding-right: 8px;
+                            font: 16px/26px "Arial";
+                            display: block;
+                            width: 14px;
+                            height: 26px;
+                            float: left;
+                            line-height: 26px;
+                        }
+                    }
+                    dd{
+                        margin-bottom: 10px;
+                        .name{
+                            width: 130px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .dizhi{
+                            width: 350px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .phone{
+                            width: 130px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .post{
+                            width: 130px;
+                            height: 26px;
+                            border: 1px solid #D6D6D6;
+                        }
+                        .sub{
+                            display: inline-block;
+                            width: 120px;
+                            height: 30px;
+                            line-height: 30px;
+                            background: #DE3030;
+                            color: #FFFFFF;
+                            font-weight: 900;
+                            font: 14px;
+                            text-align:center;
+                            text-decoration: none;
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                
+            }
+//          地址栏显示
+            .site_show{
+                margin-top:10px ;
+                tr{
+//                  width: 928px;
+                    td{
+                        text-align: center;
+                        color: #666;
+                        height: 63px;
+                        font-size: 12px;
+                    }
+                    th{
+                        text-align: center;
+                        background: #f7f7f7;
+                        height: 39px;
+                        line-height: 39px;
+                    }
+                    .cell1{
+                        width: 89px;
+                    }
+                    .cell2{
+                        width: 159px;
+                    }
+                    .cell3{
+                        width: 320px;
+                    }
+                    .cell4{
+                        width: 99px;
+                    }
+                    .cell5{
+                        width: 121px;
+                    }
+                    .cell6{
+                        width: 142px;
+                    }
+                }
+            }
+    }
+//  收货地址结束
+}
+//内容结束
+
+//底部开始
+#footer{
+    .footer_outer{
+        width: 100%;
+        border-top: 1px solid #D9D9D9;
+        .footer_inside{
+            width: 1200px;
+            margin: 0 auto;
+            .footer_server{
+                width: 1200px;
+                height: 110px;
+                border-bottom: 1px solid #D9D9D9;
+                text-align: center;
+            }
+        }
+    }
+    .footer_nav{
+        width: 100%;
+        height: 224px;
+        background-color: #2D2D2D;
+        .footer_nav_inside{
+            width: 1200px;
+            margin: 0 auto;
+            padding: 25px 0 30px;
+            p{
+                height: 20px;
+                color: #ccc;
+                font: 12px "微软雅黑";
+                margin-bottom: 30px;
+                a{
+                    padding:10px 10px ;
+                    color: #FFFFFF;
+                    font: 12px "微软雅黑";
+                }
+            }
+        }
+    }
+    
+}
+//底部结束

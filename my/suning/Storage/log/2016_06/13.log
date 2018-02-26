@@ -1,0 +1,220 @@
+[ 2016-06-13T10:45:21+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\App\Home\Controller\ContentController.php (220).
+[ 2016-06-13T10:45:21+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\App\Home\Controller\ContentController.php (226).
+[ 2016-06-13T10:45:21+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\407908ba39c0b37b9e3fc476bc434d39.php (133).
+[ 2016-06-13T10:46:34+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\App\Home\Controller\ContentController.php (220).
+[ 2016-06-13T10:46:34+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\App\Home\Controller\ContentController.php (224).
+[ 2016-06-13T10:46:34+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\App\Home\Controller\ContentController.php (226).
+[ 2016-06-13T10:46:34+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\407908ba39c0b37b9e3fc476bc434d39.php (133).
+[ 2016-06-13T10:46:52+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\App\Home\Controller\ContentController.php (220).
+[ 2016-06-13T10:46:52+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\App\Home\Controller\ContentController.php (224).
+[ 2016-06-13T10:46:52+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\App\Home\Controller\ContentController.php (226).
+[ 2016-06-13T10:46:52+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\407908ba39c0b37b9e3fc476bc434d39.php (133).
+[ 2016-06-13T10:49:43+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\App\Home\Controller\ContentController.php (218).
+[ 2016-06-13T10:49:43+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\App\Home\Controller\ContentController.php (223).
+[ 2016-06-13T10:49:43+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\407908ba39c0b37b9e3fc476bc434d39.php (133).
+[ 2016-06-13T11:31:26+08:00 ]NOTICE: Undefined index: statuD:\Program\www\suning\App\Home\Controller\ContentController.php (268).
+[ 2016-06-13T14:33:08+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\7508fd4207e2344498d2fda588d0f5c2.php (231).
+[ 2016-06-13T14:34:37+08:00 ]NOTICE: Undefined offset: 27D:\Program\www\suning\App\Common\Model\Brand.php (137).
+[ 2016-06-13T14:34:37+08:00 ]NOTICE: Undefined offset: 28D:\Program\www\suning\App\Common\Model\Brand.php (137).
+[ 2016-06-13T15:46:54+08:00 ]NOTICE: Undefined variable: buyD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (531).
+[ 2016-06-13T15:46:54+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (531).
+[ 2016-06-13T15:51:45+08:00 ]NOTICE: Undefined variable: topD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (552).
+[ 2016-06-13T15:51:45+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (552).
+[ 2016-06-13T15:53:33+08:00 ]NOTICE: Undefined variable: topD:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (552).
+[ 2016-06-13T15:53:33+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (552).
+[ 2016-06-13T17:16:12+08:00 ]NOTICE: Undefined index: uidD:\Program\www\suning\App\Home\Controller\PersonController.php (123).
+[ 2016-06-13T17:16:12+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE uid= LIMIT 1 ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de 'LIMIT 1' à la ligne 1
+[ 2016-06-13T17:16:22+08:00 ]NOTICE: Undefined index: uidD:\Program\www\suning\App\Home\Controller\PersonController.php (123).
+[ 2016-06-13T17:16:22+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE uid= LIMIT 1 ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de 'LIMIT 1' à la ligne 1
+[ 2016-06-13T17:16:32+08:00 ]NOTICE: Undefined index: uidD:\Program\www\suning\App\Home\Controller\PersonController.php (123).
+[ 2016-06-13T17:16:32+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE uid= LIMIT 1 ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de 'LIMIT 1' à la ligne 1
+[ 2016-06-13T17:17:37+08:00 ]NOTICE: Undefined index: uidD:\Program\www\suning\App\Home\Controller\PersonController.php (123).
+[ 2016-06-13T17:18:21+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\Storage\view\compile\a854527b568955b11a3871ceff34ae07.php (161).
+[ 2016-06-13T17:18:21+08:00 ]NOTICE: Undefined variable: dataD:\Program\www\suning\Storage\view\compile\a854527b568955b11a3871ceff34ae07.php (184).
+[ 2016-06-13T17:19:00+08:00 ]NOTICE: Undefined index: nicknameD:\Program\www\suning\Storage\view\compile\a854527b568955b11a3871ceff34ae07.php (161).
+[ 2016-06-13T17:19:00+08:00 ]NOTICE: Undefined index: phoneD:\Program\www\suning\Storage\view\compile\a854527b568955b11a3871ceff34ae07.php (184).
+[ 2016-06-13T17:19:04+08:00 ]NOTICE: Undefined index: nicknameD:\Program\www\suning\Storage\view\compile\a854527b568955b11a3871ceff34ae07.php (161).
+[ 2016-06-13T17:19:04+08:00 ]NOTICE: Undefined index: phoneD:\Program\www\suning\Storage\view\compile\a854527b568955b11a3871ceff34ae07.php (184).
+[ 2016-06-13T17:20:37+08:00 ]NOTICE: Undefined index: nicknameD:\Program\www\suning\Storage\view\compile\a854527b568955b11a3871ceff34ae07.php (161).
+[ 2016-06-13T17:29:23+08:00 ]NOTICE: Undefined variable: likeD:\Program\www\suning\Storage\view\compile\03b89804f399a8f8979a7226fdeb7e95.php (11).
+[ 2016-06-13T17:29:23+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\03b89804f399a8f8979a7226fdeb7e95.php (11).
+[ 2016-06-13T19:02:39+08:00 ]EXCEPTION: SELECT  taname  FROM type_attr WHERE class='规格' and type_tid= ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de '' à la ligne 1
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:23+08:00 ]NOTICE: Illegal string offset 'cname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (574).
+[ 2016-06-13T19:07:56+08:00 ]NOTICE: Undefined variable: ralatedD:\Program\www\suning\App\Home\Controller\ContentController.php (102).
+[ 2016-06-13T19:08:28+08:00 ]NOTICE: Argument 1 passed to Hdphp\Db\Mysql::get() must be of the type array, string givenD:\Program\www\suning\hdphp\Db\Mysql.php (1022).
+[ 2016-06-13T19:08:28+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\suning\hdphp\Db\Mysql.php (1027).
+[ 2016-06-13T19:08:28+08:00 ]NOTICE: Undefined variable: ralatedD:\Program\www\suning\App\Home\Controller\ContentController.php (102).
+[ 2016-06-13T19:08:37+08:00 ]NOTICE: Undefined variable: ralatedD:\Program\www\suning\App\Home\Controller\ContentController.php (102).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bid'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:10:33+08:00 ]NOTICE: Illegal string offset 'bname'D:\Program\www\suning\Storage\view\compile\2285f5ecd290c2ae060f2c24a56dc0d2.php (584).
+[ 2016-06-13T19:16:39+08:00 ]NOTICE: Undefined variable: nameD:\Program\www\suning\Storage\view\compile\8ac3c7f94d1f588c4da5b906ab63d660.php (5).
+[ 2016-06-13T19:16:39+08:00 ]NOTICE: Undefined variable: vivoD:\Program\www\suning\Storage\view\compile\8ac3c7f94d1f588c4da5b906ab63d660.php (123).
+[ 2016-06-13T19:16:39+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\8ac3c7f94d1f588c4da5b906ab63d660.php (123).
+[ 2016-06-13T19:16:39+08:00 ]NOTICE: Undefined variable: hotD:\Program\www\suning\Storage\view\compile\8ac3c7f94d1f588c4da5b906ab63d660.php (203).
+[ 2016-06-13T19:16:39+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\suning\Storage\view\compile\8ac3c7f94d1f588c4da5b906ab63d660.php (203).
+[ 2016-06-13T21:08:57+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE  aid=?  LIMIT 1 ;BindParams:array (
+  0 => '2',
+)42S22;1054;Champ 'aid' inconnu dans where clause
+[ 2016-06-13T21:09:43+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE  aid=?  LIMIT 1 ;BindParams:array (
+  0 => '2',
+)42S22;1054;Champ 'aid' inconnu dans where clause
+[ 2016-06-13T21:09:57+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE  aid=?  LIMIT 1 ;BindParams:array (
+  0 => '2',
+)42S22;1054;Champ 'aid' inconnu dans where clause
+[ 2016-06-13T21:09:59+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE  aid=?  LIMIT 1 ;BindParams:array (
+  0 => '2',
+)42S22;1054;Champ 'aid' inconnu dans where clause
+[ 2016-06-13T21:11:01+08:00 ]EXCEPTION: SELECT  *  FROM user WHERE  aid=?  LIMIT 1 ;BindParams:array (
+  0 => '2',
+)42S22;1054;Champ 'aid' inconnu dans where clause
+[ 2016-06-13T21:11:41+08:00 ]NOTICE: Undefined index: usernameD:\Program\www\suning\hdphp\Db\Mysql.php (1060).
+[ 2016-06-13T21:11:41+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM ccshop_rbac_user_role ur JOIN ccshop_rbac_role r ON ur.role_id = r.id  JOIN ccshop_rbac_access a ON a.role_id=r.id  JOIN ccshop_rbac_node n ON n.id = a.node_id WHERE ur.user_id=2 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'ur.user_id' inconnu dans where clause
+[ 2016-06-13T21:12:33+08:00 ]NOTICE: Undefined index: usernameD:\Program\www\suning\hdphp\Db\Mysql.php (1060).
+[ 2016-06-13T21:12:33+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM ccshop_rbac_user_role ur JOIN ccshop_rbac_role r ON ur.role_id = r.id  JOIN ccshop_rbac_access a ON a.role_id=r.id  JOIN ccshop_rbac_node n ON n.id = a.node_id WHERE ur.user_id=2 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'ur.user_id' inconnu dans where clause
+[ 2016-06-13T21:12:58+08:00 ]NOTICE: Undefined index: usernameD:\Program\www\suning\hdphp\Db\Mysql.php (1060).
+[ 2016-06-13T21:12:58+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM ccshop_rbac_user_role ur JOIN ccshop_rbac_role r ON ur.role_id = r.id  JOIN ccshop_rbac_access a ON a.role_id=r.id  JOIN ccshop_rbac_node n ON n.id = a.node_id WHERE ur.user_id=2 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'ur.user_id' inconnu dans where clause
+[ 2016-06-13T21:13:01+08:00 ]NOTICE: Undefined index: usernameD:\Program\www\suning\hdphp\Db\Mysql.php (1060).
+[ 2016-06-13T21:13:01+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM ccshop_rbac_user_role ur JOIN ccshop_rbac_role r ON ur.role_id = r.id  JOIN ccshop_rbac_access a ON a.role_id=r.id  JOIN ccshop_rbac_node n ON n.id = a.node_id WHERE ur.user_id=2 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'ur.user_id' inconnu dans where clause
+[ 2016-06-13T21:13:06+08:00 ]NOTICE: Undefined index: usernameD:\Program\www\suning\hdphp\Db\Mysql.php (1060).
+[ 2016-06-13T21:13:06+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM ccshop_rbac_user_role ur JOIN ccshop_rbac_role r ON ur.role_id = r.id  JOIN ccshop_rbac_access a ON a.role_id=r.id  JOIN ccshop_rbac_node n ON n.id = a.node_id WHERE ur.user_id=2 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'ur.user_id' inconnu dans where clause
+[ 2016-06-13T21:18:16+08:00 ]NOTICE: Undefined index: usernameD:\Program\www\suning\hdphp\Db\Mysql.php (1060).
+[ 2016-06-13T21:18:16+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM ccshop_rbac_user_role ur JOIN ccshop_rbac_role r ON ur.role_id = r.id  JOIN ccshop_rbac_access a ON a.role_id=r.id  JOIN ccshop_rbac_node n ON n.id = a.node_id WHERE ur.user_id=2 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'ur.user_id' inconnu dans where clause
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:19+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:20+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Missing argument 1 for go(), called in D:\Program\www\suning\App\Home\Controller\PersonController.php on line 59 and definedD:\Program\www\suning\hdphp\Kernel\Functions.php (142).
+[ 2016-06-13T21:31:21+08:00 ]NOTICE: Undefined variable: urlD:\Program\www\suning\hdphp\Kernel\Functions.php (144).

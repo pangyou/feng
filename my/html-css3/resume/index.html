@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/animate.min.css"/>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+			    font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+			}
+			li{
+				list-style: none;
+			}
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+			}
+			.play_music{
+				position: absolute;
+			    right: 10px;
+			    top: 10px;
+			    z-index: 200;
+			    width: 30px;
+			    height: 30px;
+			}
+			.play_music .music{
+			    position: absolute;
+			    top: 0px;
+			    right: 0px;
+			    z-index: 999;
+			    width: 30px;
+			    height: 30px;
+			    animation: musicRotate 3s infinite linear;
+			}
+			@-webkit-keyframes musicRotate{
+				from{
+					transform: rotate(0deg);
+				}
+				to{
+					transform: rotate(360deg);
+				}
+			}
+			@-ms-keyframes musicRotate{
+				from{
+					transform: rotate(0deg);
+				}
+				to{
+					transform: rotate(360deg);
+				}
+			}
+			@-moz-keyframes musicRotate{
+				from{
+					transform: rotate(0deg);
+				}
+				to{
+					transform: rotate(360deg);
+				}
+			}
+			.fly{
+				position: absolute;
+		        top: -5px;
+    			right: -5px;
+			    z-index: 998;
+			    width: 50px;
+			    height: 50px;
+			}
+			/*求职简历部分*/
+			.work{
+				position: absolute;
+				width: 162px;
+				left: 74px;
+			    top: 76px;
+			    z-index: 3;
+			    border: 5px solid white;
+			}
+			.work span{
+				font-size: 64px;
+				color: white;
+				display: block;
+				text-align: center;
+			}
+			.work .pa{
+				position: absolute;
+				width: 60px;
+				height: 74px;
+			    bottom: -20px;
+    			right: -30px;
+			}
+			/*单车图片部分*/
+			.bicycle{
+				max-width: 322px;
+				position: absolute;
+				bottom: 20px;
+			}
+			/*向上滑动样式*/
+			#arrow{
+				position: absolute;
+				bottom: 40px;
+				/*left: 150px;*/
+				z-index: 999;
+				width: 30px;
+				height: 25px;
+				animation: up 1.5s infinite;
+			}
+			@-webkit-keyframes up{
+				from{
+					transform: translateY(0px);
+				}
+				to{
+					transform: translateY(-20px);
+					opacity: 0;
+				}
+			}
+			@-moz-keyframes up{
+				from{
+					transform: translateY(0px);
+				}
+				to{
+					transform: translateY(-20px);
+					opacity: 0;
+				}
+			}
+			@-ms-keyframes up{
+				from{
+					transform: translateY(0px);
+				}
+				to{
+					transform: translateY(-20px);
+					opacity: 0;
+				}
+			}
+			/*第二屏设置开始*/
+			.name{
+				min-height: 255px;
+				text-align: center;
+				background: #20D06E;
+			    color: rgb(44, 114, 165);
+			    font-size: 24px;
+			    position: relative;
+			}
+			.name p:nth-of-type(1){
+				margin-top: 15px;
+			}
+			.name p:nth-of-type(2){
+			    font-size: 18px;
+			    color: #787878;
+			    margin-top: 15px;
+			}
+			.name .tp1{
+				width: 37px;
+				height: 65px;
+				position: absolute;
+				left: 20px;
+				bottom: 0px;
+			}
+			.name .tp2{
+				width: 23px;
+				height: 37px;
+				position: absolute;
+				right: 20px;
+				bottom: 0px;
+			}
+			.my_img img{
+				width: 70px;
+				margin-top: 20px;
+				box-shadow: 2px 2px 5px #004B54;
+			}
+			.product img{
+				width: 24px;
+				height: 24px;
+			    position: relative;
+			    top: 7px;
+			    margin-right: 10px;
+			}
+			.product{
+				color: #FAFCF8;
+			}
+			.product li{
+				/*height: 40px;*/
+			}
+			.product li:nth-of-type(1){
+				margin-top: 20px;
+			}
+			.product span:nth-of-type(1){
+				display: inline-block;
+				width: 100px;
+				height: 40px;
+				line-height: 40px;
+				text-align: right;
+			}
+			.product span:nth-of-type(2){
+				display: inline-block;
+			}
+			
+			/*第三屏*/
+			#p3,#p4,#p5,#p6,#p7{
+				background: url(./images/bg3.jpg);
+			    background-size: cover;
+				background-position: 50% 50%;
+			}
+			.bg{
+				height: 132px;
+				background: #FED835;
+			}
+			.bgt img{
+				position: absolute;
+			    width: 296px;
+			    height: 123.5px;
+			    left: 18px;
+			    top: 8px;
+			    z-index: 8;
+			}
+			.project-img{
+				position: absolute;
+			    top: 35px;
+    			left: 105px;
+				width: 168px;
+				height: 68px;
+			}
+			.project-span{
+				position: absolute;
+			    left: 125px;
+    			top: 45px;
+				font-size: 28px;
+			}
+			.project-list li{
+				margin-top: 5px;
+			    text-align: center;
+			}
+			.project-list span{
+				display: inline-block;
+				position: relative;
+				top: -50px;
+				left: -10px;
+			}
+			.project-list img{
+				max-width: 200px;
+				box-shadow: 2px 2px 5px #FFFFFF;
+			}
+			.bottom img{
+				max-width: 200px;
+				box-shadow: 2px 2px 5px #FFFFFF;
+			}
+			.page6_text img{
+				max-width: 200px;
+				box-shadow: 2px 2px 5px #595959;
+			}
+			/*第四屏*/
+			
+			.bird{
+				position: absolute;
+				background: url(./images/bg4.png);
+			    width: 69px;
+			    height: 49px;
+			    left: -18px;
+			    top: 88px;
+			    z-index: 2;
+			}
+			.page6_text{
+				color: #DCDCDC;
+			    width: 248px;
+    			padding: 20px;
+			    position: absolute;
+			    left: 30px;
+			    top: 20px;
+				background: url(./images/bg4b.png)repeat-y;
+			}
+			#page8{
+			    
+			    color: #FFF6D9;
+			}
+			#page8 .top img{
+				display: block;
+				margin: 5px auto;
+			}
+			#page8 p{
+				font-size: 24px;
+				margin: 5px 0;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<!--第一屏***************************************-->
+				<div class="swiper-slide" id="top" style="background: #4A93BE;">
+					<!--求职简历-->
+					<section>
+						<div id="page1">
+							<div class="work ani " id="work" swiper-animate-effect="rotateIn"  swiper-animate-duration="1s" swiper-animate-delay="0s">
+								<span class="ani " swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >求职</span>
+								<span class="ani " swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="1s" swiper-animate-delay="1s" >简历</span>
+								<img src="./images/pa.png" class="pa ani " swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2s" alt="" />
+							</div>
+							<img src="./images/1.gif" style="max-width: 100%;margin-top: 100px;" class="ani bicycle" id="bicycle" swiper-animate-effect="slideInUp" swiper-animate-duration="1s" swiper-animate-delay="2.5s" />
+						</div>
+					</section>	
+				</div>
+				<!--第二屏******************************-->
+				<div class="swiper-slide" style="background: #A3C87A;">
+					<section>
+						<div class="person" id="page2">
+							<div class="name">
+								<div class="my_img">
+									<img src="./images/3.jpg" alt="" class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"/>
+								</div>
+								<p  class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">庞友</p>
+								<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">应聘职位:php开发工程师</p>
+								<img src="./images/tp1.png" class="tp1 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2s" alt="" />
+								<img src="./images/tp2.png" class="tp2 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2.5s" alt="" />
+							</div>
+							<ul class="product">
+								<li>
+									<span class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="3s"><img src="./images/dv1.png" alt="" /></span>
+									<span class="ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="2.5s">学历:本科</span>
+								</li>
+								<li>
+									<span class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="3.5s"><img src="./images/dv2.png" alt="" /></span>
+									<span class="ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="3s">专业:计算机科学与技术</span>
+								</li>
+								<li>
+									<span class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="4s"><img src="./images/dv3.png" alt="" /></span>
+									<span class="ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="3.5s">爱好:游泳、象棋</span>
+								</li>
+								<li>
+									<span class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="4.5s"><img src="./images/dv4.png" alt="" /></span>
+									<span class="ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="4s">户籍:广西省玉林市</span>
+								</li>
+								<li>
+									<span class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="5s"><img src="./images/dv5.png" alt="" /></span>
+									<span class="ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="4.5s">出生日期:1991-7-1</span>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+				<!--第三屏********************************************-->
+				<div class="swiper-slide" id="p3">
+					<section>
+						<div id="page3">
+							<div class="page3_title">
+								<div class="bg"></div>
+								<div class="bgt">
+									<img src="./images/wcjca1.png"/>
+								</div>
+								<img class="project-img ani"swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="0s" src="./images/wcjca3.png"/>
+								<span class="project-span ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s">项目介绍</span>
+							</div>
+							<ul class="project-list">
+								<li >
+									<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1s">响应式博客</span>
+									<img class="ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="2s" swiper-animate-delay="2s" src="./images/blog.png" alt="" />
+								</li>
+								<li >
+									<span  class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2s">响应式博客</span>
+										<img class="ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="2s" swiper-animate-delay="3s" src="./images/blog3.png" alt="" />
+								</li>
+								<li >
+									<span  class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="3s">响应式博客</span>
+										<img class="ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="2s" swiper-animate-delay="4s" src="./images/blog2.png" alt="" />
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+				<!--第四屏****************************-->
+				<div class="swiper-slide">
+					<section>
+						<div id="page4">
+							<div class="page3_title">
+								<div class="bg"></div>
+								<div class="bgt">
+									<img src="./images/wcjca1.png"/>
+								</div>
+								<img class="project-img ani"swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="0s" src="./images/wcjca3.png"/>
+								<span class="project-span ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s">项目介绍</span>
+							</div>
+							<ul class="project-list">
+								<li >
+									<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1s">zol商城</span><img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="./images/zol.png" alt="" />
+								</li>
+								<li >
+									<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2s">苏宁商城</span><img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="2.5s" src="./images/sn2.png" alt="" />
+								</li>
+								<li >
+									<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="3s">京东首页</span><img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="3.5s" src="./images/jd.png" alt="" />	
+								</li>
+								
+							</ul>
+						</div>
+					</section>
+				</div>
+				<!--第5屏****************************-->
+				<div class="swiper-slide">
+					<section>
+						<div id="page5">
+							<div class="page3_title">
+								<div class="bg"></div>
+								<div class="bgt">
+									<img src="./images/wcjca1.png"/>
+								</div>
+								<img class="project-img ani"swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="0s" src="./images/wcjca3.png"/>
+								<span class="project-span ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s">项目介绍</span>
+							</div>
+							<ul class="project-list">
+								<li >
+									<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1s">天猫首页</span><img class="ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="2s" swiper-animate-delay="2s" src="./images/tm.png" alt="" />
+								</li>
+								<li >
+									<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2s">1号店首页</span><img class="ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="2s" swiper-animate-delay="3s" src="./images/1hd.png" alt="" />
+								</li>
+								<li>
+									<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="3s">凡客首页</span><img  class="ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="2s" swiper-animate-delay="4s" src="./images/fk.png" alt="" />	
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+				<!--第六屏****************************************-->
+				<div class="swiper-slide" id="p6">
+					<section>
+						<div id="page6">
+							<div class="page6_title">
+								
+							</div>
+							<div class="page6_myproduct">
+								<div class="bird">
+									
+								</div>
+								<div class="page6_text">
+									<strong class="ani" swiper-animate-effect="slideInLeft" style="display: inline-block;" swiper-animate-duration="1s" swiper-animate-delay="0s">专业技能:</strong>
+									<p class="ani" swiper-animate-effect="zoomIn"  swiper-animate-duration="3s" swiper-animate-delay="1s">深刻理解MVC设计模式，熟练使用Smarty模板、HD,Thinkphp等框架.
+			熟悉linux环境配置,熟悉linux常用命令.
+			熟悉MySQL数据库，能够根据项目需求独立建立数据库(表)并对其进行合理优化.
+			有PHP项目开发经验,具备独立开发项目能力.
+熟练掌握HTML5、JavaScript、CSS3、JQuery,ajax等web前端技能，熟悉前端AngularJS的使用，精通Jquery框架, bootstrap布局,具备独立开发响应式页面，移动端页面能力.
+熟悉memcache,redis等缓冲技术.
+熟悉mysql优化,查询优化，索引优化等.
+熟练使用Navicat, MySQLWorkbench, sublime, Hbulider等常用开发软件，并能够使用Firebug、谷歌开发人员工具等快速排除页面错误问题.
+拥有良好的编码风格,测试风格</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!--第7屏****************************************-->
+				<div class="swiper-slide" id="p7">
+					<section>
+						<div id="page7">
+							<div class="page6_title">
+								
+							</div>
+							<div class="page6_myproduct">
+								<div class="bird">
+									
+								</div>
+								<div class="page6_text">
+									<strong class="ani" swiper-animate-effect="slideInLeft" style="display: inline-block;margin-left: 20px;margin-bottom: 20px;" swiper-animate-duration="1s" swiper-animate-delay="0s">
+										自我评价:
+									</strong>
+									<p class="ani" swiper-animate-effect="rollIn"  swiper-animate-duration="3s" swiper-animate-delay="1s">本人为人诚恳，办事认真，性格随和，自信，乐观开朗，积极活泼，喜欢参加各种各样的交流活动。乐于通过学习提升自己，实现自我价值。因为喜欢,所以热爱.因为不甘于平庸，所以不断学习。本人适应能力强，有丰富的问题处理经验。希望得到您的认可，给予我充分发挥的舞台，谢谢！期待与您的合作。如果有机会希望能和您当面畅聊！</p>
+									<img class="ani" swiper-animate-effect="rotateInDownRight"  swiper-animate-duration="2s" swiper-animate-delay="3s" src="./images/people.png" style="margin-top: 20px;margin-left: 50px;" alt="" />
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!--第8屏 联系方式****************************************-->
+				<div class="swiper-slide" id="p8" style="background: #1E8FBB;">
+					<section>
+						<div id="page8">
+							<div class="top">
+								<img src="./images/lx.png" alt="" class="ani" swiper-animate-effect="bounceIn"  swiper-animate-duration="2s" swiper-animate-delay="0.2s" />
+								<p  class="ani" swiper-animate-effect="fadeInLeft"  swiper-animate-duration="1s" swiper-animate-delay="0.5s">电话:18607894347</p>
+								<p  class="ani" swiper-animate-effect="fadeInRight"  swiper-animate-duration="1s" swiper-animate-delay="1s">邮箱:apy123@qq.com</p>
+							</div>
+							<div class="bottom">
+								<p class="ani" swiper-animate-effect="bounceIn"  swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+									<img src="./images/my.jpg" alt="" />
+								</p> 
+								<p class="ani" swiper-animate-effect="fadeIn"  swiper-animate-duration="1s" swiper-animate-delay="2s">扫一扫</p> 
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		
+		<!--音乐设置-->
+		<div class="play_music">
+			<!--音乐图片-->
+			<img class="music" id='music' src="./images/music.png"/>
+			<!--音乐飞符图片-->
+			<img class="fly" id="fly" src="./images/music_fly.gif"/>
+			<!--自动播放,循环播放,隐藏显示条-->
+			<audio src="./xiangwang.mp3" id="aud" loop autoplay></audio>
+		</div>
+		<!--底部箭头-->
+		<img id='arrow' src="./images/arrow.png" alt="" />
+		<script type="text/javascript" src="./js/swiper-3.3.1.min.js"></script>
+		<script type="text/javascript" src="./js/swiper.animate1.0.2.min.js">
+		</script>
+		<script type="text/javascript">
+			//抓取音乐元素
+			var aud = document.getElementById("aud");
+			var music = document.getElementById("music");
+			//控制播放状态
+			var state = 1;
+			music.onclick=function(){
+				if(state){
+					//音乐暂停
+					aud.pause();
+					//图片旋转停止
+					this.style.animationPlayState = 'paused';
+					document.getElementById("fly").style.display = 'none';
+					//gif图片隐藏
+					state = 0;
+				}else{
+					//音乐开始
+					aud.play();
+					//图片旋转开始
+					this.style.animationPlayState = 'running';
+					document.getElementById("fly").style.display = 'block';
+					state = 1;
+				}
+			}
+			//底部滑块的位置计算
+			var arrow = document.getElementById("arrow");
+			var left = (window.innerWidth-arrow.width)/2;
+			//注意单位
+			arrow.style.left = left + 'px';
+			//首页自行车位置
+			//var bicycle = document.getElementById("bicycle");
+			//bicycle.style.left = (window.innerWidth-bicycle.width)/2 + 'px';
+			//求职简历位置
+			//var work = document.getElementById("work");
+			//获取不到宽度...work.style.width
+			//work.style.left = (window.innerWidth-162)/2 + 'px';
+			//swiper滑动
+			var mySwiper = new Swiper('.swiper-container', {
+				//垂直滑动
+				direction: 'vertical',
+				loop: true,
+				onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+					swiperAnimateCache(swiper); //隐藏动画元素 
+					swiperAnimate(swiper); //初始化完成开始动画
+				},
+				onSlideChangeEnd: function(swiper) {
+					swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+				}
+			})
+		</script>
+	</body>
+</html>

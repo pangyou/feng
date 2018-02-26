@@ -1,0 +1,314 @@
+[ 2016-05-13T15:26:39+08:00 ]NOTICE: Missing argument 1 for Admin\Model\Cate::getNoMy(), called in D:\Program\www\5.12\blog\App\Admin\Controller\CateController.php on line 89 and definedD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (49).
+[ 2016-05-13T15:26:39+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (51).
+[ 2016-05-13T15:26:40+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (53).
+[ 2016-05-13T15:26:40+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE cid NOT IN() ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de ')' à la ligne 1
+[ 2016-05-13T15:34:46+08:00 ]NOTICE: Missing argument 1 for Admin\Model\Cate::getNoMy(), called in D:\Program\www\5.12\blog\App\Admin\Controller\CateController.php on line 89 and definedD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (49).
+[ 2016-05-13T15:34:46+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (51).
+[ 2016-05-13T15:34:46+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (53).
+[ 2016-05-13T15:34:46+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE cid NOT IN() ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de ')' à la ligne 1
+[ 2016-05-13T15:36:49+08:00 ]NOTICE: Undefined variable: cateDataD:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (34).
+[ 2016-05-13T15:36:49+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (34).
+[ 2016-05-13T15:36:49+08:00 ]NOTICE: Undefined variable: tagDataD:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (48).
+[ 2016-05-13T15:36:49+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (48).
+[ 2016-05-13T15:37:20+08:00 ]NOTICE: Missing argument 1 for Admin\Model\Cate::getNoMy(), called in D:\Program\www\5.12\blog\App\Admin\Controller\CateController.php on line 89 and definedD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (49).
+[ 2016-05-13T15:37:20+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (51).
+[ 2016-05-13T15:37:20+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (53).
+[ 2016-05-13T15:37:20+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE cid NOT IN() ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de ')' à la ligne 1
+[ 2016-05-13T15:38:46+08:00 ]NOTICE: Missing argument 1 for Admin\Model\Cate::getNoMy(), called in D:\Program\www\5.12\blog\App\Admin\Controller\CateController.php on line 89 and definedD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (49).
+[ 2016-05-13T15:38:46+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (51).
+[ 2016-05-13T15:38:46+08:00 ]NOTICE: Undefined variable: cidD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (53).
+[ 2016-05-13T15:38:46+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE cid NOT IN() ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de ')' à la ligne 1
+[ 2016-05-13T15:49:30+08:00 ]NOTICE: Undefined variable: cateDataD:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (34).
+[ 2016-05-13T15:49:30+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (34).
+[ 2016-05-13T15:49:30+08:00 ]NOTICE: Undefined variable: tagDataD:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (48).
+[ 2016-05-13T15:49:30+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\Program\www\5.12\blog\Storage\view\compile\d7d9e633b456fa6c635f482d08d545f5.php (48).
+[ 2016-05-13T16:28:42+08:00 ]NOTICE: Undefined property: Admin\Controller\ArcController::$errorD:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php (37).
+[ 2016-05-13T16:58:37+08:00 ]NOTICE: Undefined variable: arcDataModelD:\Program\www\5.12\blog\App\Admin\Model\Arc.php (48).
+[ 2016-05-13T17:00:27+08:00 ]EXCEPTION: INSERT INTO article (`title`,`author`,`category_cid`,`thumb`,`digest`,`keywords`,`sendtime`,`user_uid`)VALUES(?,?,?,?,?,?,?,?) ;BindParams:array (
+  0 => '今天是周五吗',
+  1 => '今天是周五吗',
+  2 => '28',
+  3 => NULL,
+  4 => '今天是周五吗',
+  5 => '今天是周五吗',
+  6 => 1463130027,
+  7 => '2',
+)23000;1048;Le champ 'thumb' ne peut être vide (null)
+[ 2016-05-13T17:02:07+08:00 ]EXCEPTION: INSERT INTO article (`title`,`author`,`category_cid`,`thumb`,`digest`,`keywords`,`sendtime`,`user_uid`)VALUES(?,?,?,?,?,?,?,?) ;BindParams:array (
+  0 => '今天是周五吗',
+  1 => '今天是周五吗',
+  2 => '',
+  3 => NULL,
+  4 => '今天是周五吗',
+  5 => '今天是周五吗',
+  6 => 1463130127,
+  7 => '2',
+)23000;1048;Le champ 'thumb' ne peut être vide (null)
+[ 2016-05-13T17:46:32+08:00 ]NOTICE: Argument 1 passed to Hdphp\Db\Mysql::get() must be of the type array, string givenD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1022).
+[ 2016-05-13T17:46:32+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1027).
+[ 2016-05-13T17:54:53+08:00 ]NOTICE: Undefined property: Admin\Controller\ArcController::$errorD:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php (45).
+[ 2016-05-13T17:57:41+08:00 ]NOTICE: Undefined property: Admin\Controller\ArcController::$errorD:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php (45).
+[ 2016-05-13T18:32:46+08:00 ]EXCEPTION: DELETE FROM article WHERE tid=0 ;BindParams:array (
+)42S22;1054;Champ 'tid' inconnu dans where clause
+[ 2016-05-13T18:33:14+08:00 ]EXCEPTION: DELETE FROM article WHERE tid=0 ;BindParams:array (
+)42S22;1054;Champ 'tid' inconnu dans where clause
+[ 2016-05-13T18:54:51+08:00 ]NOTICE: Undefined variable: kD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (45).
+[ 2016-05-13T18:54:51+08:00 ]NOTICE: Undefined variable: kD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (46).
+[ 2016-05-13T18:54:51+08:00 ]NOTICE: Undefined variable: vD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (46).
+[ 2016-05-13T18:55:42+08:00 ]NOTICE: Undefined variable: vD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (46).
+[ 2016-05-13T18:56:38+08:00 ]NOTICE: Undefined variable: vD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (46).
+[ 2016-05-13T19:04:13+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (60).
+[ 2016-05-13T19:04:13+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (64).
+[ 2016-05-13T19:04:13+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T19:05:57+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (60).
+[ 2016-05-13T19:05:57+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (64).
+[ 2016-05-13T19:05:57+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T19:15:48+08:00 ]NOTICE: Undefined index: table:protectedD:\Program\www\5.12\blog\Hdphp\Model\Model.php (741).
+[ 2016-05-13T19:26:06+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (60).
+[ 2016-05-13T19:26:06+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (64).
+[ 2016-05-13T19:26:06+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T19:27:45+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (60).
+[ 2016-05-13T19:27:45+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (64).
+[ 2016-05-13T19:27:45+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T19:32:51+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (36).
+[ 2016-05-13T19:32:51+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (36).
+[ 2016-05-13T19:32:51+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (36).
+[ 2016-05-13T19:32:51+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (36).
+[ 2016-05-13T19:32:51+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (64).
+[ 2016-05-13T19:32:51+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T19:32:51+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (72).
+[ 2016-05-13T19:33:44+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (34).
+[ 2016-05-13T19:33:44+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (34).
+[ 2016-05-13T19:33:44+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (34).
+[ 2016-05-13T19:33:44+08:00 ]NOTICE: Undefined index: _nameD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (34).
+[ 2016-05-13T19:33:44+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:33:44+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:33:44+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:34:58+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:34:58+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:34:58+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:36:40+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:36:40+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:36:40+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:36:58+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:36:58+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:36:58+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:47:49+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:47:49+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:47:49+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:54:23+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:54:23+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:54:23+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:54:30+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:54:30+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:54:30+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:54:38+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:54:38+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:54:38+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:55:12+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:55:12+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:55:12+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:57:27+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:57:27+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:57:27+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T19:57:34+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T19:57:34+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T19:57:34+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:00:11+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:00:11+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:00:11+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:00:23+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:00:23+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:00:23+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:00:52+08:00 ]NOTICE: Argument 1 passed to Hdphp\Db\Mysql::get() must be of the type array, string givenD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1022).
+[ 2016-05-13T20:00:52+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1027).
+[ 2016-05-13T20:00:52+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:00:52+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:00:52+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:01:07+08:00 ]NOTICE: Argument 1 passed to Hdphp\Db\Mysql::get() must be of the type array, string givenD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1022).
+[ 2016-05-13T20:01:07+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1027).
+[ 2016-05-13T20:01:07+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:01:07+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:01:07+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:01:10+08:00 ]NOTICE: Argument 1 passed to Hdphp\Db\Mysql::get() must be of the type array, string givenD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1022).
+[ 2016-05-13T20:01:10+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\5.12\blog\Hdphp\Db\Mysql.php (1027).
+[ 2016-05-13T20:01:10+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:01:10+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:01:10+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:05:07+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE cid NOT IN() ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de ')' à la ligne 1
+[ 2016-05-13T20:07:28+08:00 ]NOTICE: Missing argument 2 for Admin\Model\Cate::getSon(), called in D:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php on line 88 and definedD:\Program\www\5.12\blog\App\Admin\Model\Cate.php (77).
+[ 2016-05-13T20:07:28+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:07:28+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:07:28+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:08:17+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:08:17+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:08:17+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:08:40+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:08:40+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:08:40+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:09:13+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:09:13+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:09:13+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:11:28+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:11:28+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:11:28+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:11:38+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE cid NOT IN() ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de ')' à la ligne 1
+[ 2016-05-13T20:12:08+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE cid NOT IN() ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de ')' à la ligne 1
+[ 2016-05-13T20:12:33+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:12:33+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:12:33+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:12:44+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:12:44+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:12:44+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:15:12+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:15:12+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:15:12+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:16:11+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:16:11+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:16:11+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:18:00+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:18:00+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:18:00+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:18:12+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (62).
+[ 2016-05-13T20:18:12+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:18:12+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:22:17+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: pidD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (35).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:22:45+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:27:04+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:27:04+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:27:04+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:27:10+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:27:10+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:27:10+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:27:16+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:27:16+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:27:16+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:27:49+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:27:49+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:27:49+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:27:54+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:27:54+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:27:54+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:28:03+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:28:03+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:28:03+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:28:48+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:28:48+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:28:48+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:29:03+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:29:03+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:29:03+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:29:13+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:29:13+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:29:13+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:29:32+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:29:32+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:29:32+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:29:41+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:29:41+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:29:41+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:29:56+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:29:56+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:29:56+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:30:33+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:30:33+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:30:33+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:30:38+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:30:38+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:30:38+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:34:11+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:34:11+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:34:11+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:35:10+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:35:10+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:35:10+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:37:18+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:37:18+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:37:18+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:37:31+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (65).
+[ 2016-05-13T20:37:31+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (69).
+[ 2016-05-13T20:37:31+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (73).
+[ 2016-05-13T20:39:53+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:39:53+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:39:53+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (74).
+[ 2016-05-13T20:40:45+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T20:40:45+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T20:40:45+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (74).
+[ 2016-05-13T20:45:59+08:00 ]NOTICE: Undefined offset: 4D:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php (80).
+[ 2016-05-13T20:45:59+08:00 ]NOTICE: Undefined index: tidD:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php (101).
+[ 2016-05-13T20:46:28+08:00 ]NOTICE: Undefined offset: 6D:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php (80).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (72).
+[ 2016-05-13T20:47:57+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (72).
+[ 2016-05-13T20:51:36+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (72).
+[ 2016-05-13T20:52:28+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined variable: oldTagD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (52).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (68).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined index: desD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (72).
+[ 2016-05-13T20:52:33+08:00 ]NOTICE: Undefined index: contentD:\Program\www\5.12\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-13T20:58:52+08:00 ]NOTICE: Undefined index: tag_tidD:\Program\www\5.12\blog\App\Admin\Controller\ArcController.php (103).
+[ 2016-05-13T21:24:47+08:00 ]NOTICE: Undefined index: tag_tidD:\Program\www\blog\App\Admin\Controller\ArcController.php (103).
+[ 2016-05-13T21:24:50+08:00 ]NOTICE: Undefined index: tag_tidD:\Program\www\blog\App\Admin\Controller\ArcController.php (103).
+[ 2016-05-13T21:24:55+08:00 ]NOTICE: Undefined index: tag_tidD:\Program\www\blog\App\Admin\Controller\ArcController.php (103).
+[ 2016-05-13T21:24:59+08:00 ]NOTICE: Undefined index: tag_tidD:\Program\www\blog\App\Admin\Controller\ArcController.php (103).
+[ 2016-05-13T21:26:13+08:00 ]NOTICE: Undefined index: keywordsD:\Program\www\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (66).
+[ 2016-05-13T21:26:13+08:00 ]NOTICE: Undefined index: desD:\Program\www\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (70).
+[ 2016-05-13T21:26:13+08:00 ]NOTICE: Undefined index: contentD:\Program\www\blog\Storage\view\compile\2b059842649e4d4969b063e856fa33e1.php (74).
+[ 2016-05-13T21:30:13+08:00 ]EXCEPTION: SELECT  *  FROM article_data WHERE aid=6 LIMIT 1 ;BindParams:array (
+)42S22;1054;Champ 'aid' inconnu dans where clause

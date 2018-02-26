@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>键盘游戏</title>
+<style type="text/css">
+*{margin: 0;padding: 0;}
+#fa{
+	width: 500px;
+	height: 500px;
+	margin: 20px auto;
+	background: url(1.png)no-repeat;
+}
+#fa li{
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-weight: 700;
+	font-size: 20px;
+	background: purple;
+	color: black;
+	list-style: none;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float: left;
+	margin-left: 30px;
+}
+</style>
+<script type="text/javascript">
+window.onload=function(){
+	//1,抓取元素
+	var fa=document.getElementById('fa');
+	var lis=fa.getElementsByTagName('li');
+	var sps = document.getElementsByTagName('span');
+	//定义字母
+	var arr= ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+	var max_l=document.documentElement.clientWidth-200;
+	var max_t=document.documentElement.clientHeight-200;
+	var btn=document.getElementById('btn');
+	b=0;
+	var timer1=0;
+	//2,绑定事件
+	btn.onclick=function (){
+		var timers=setInterval(function(){
+			b++;
+			if(b>lis.length){
+				b=0;
+			}else{
+				setInterval(run,50);
+			}
+		},200)
+		clearInterval(timer1);
+		function run(){
+			//document.title=b;
+			var old=lis[b].style.top;			
+			var new_t=parseInt(old)+10;
+			if(new_t>=350){
+				lis[b].style.top=0;
+			}else{
+				lis[b].style.top=new_t+"px";
+			}
+		}
+		timer1=setInterval(run,50);
+		onkeydown=function(e){
+		var ev=e||window.event;
+		var cod=ev.keyCode;
+		var word=String.fromCharCode(cod);
+			for(var i=0;i<lis.length;i++){
+				if(sps[i].innerHTML==word){
+					lis[i].removeChild(sps[i]);
+					var news=document.createElement('span');
+					var num=Math.floor(Math.random()*arr.length);
+					news.innerHTML=arr[num];
+					lis[i].appendChild(news);
+					break;
+				}
+			}
+		}	
+	}
+}
+</script>
+</head>
+
+<body>
+<button id="btn">开始</button>
+<ul id="fa">
+	<li style="top:0px;"><span>A</span></li>
+	<li style="top:0px;background:red;"><span>B</span></li>
+	<li style="top:0px;background:yellow;"><span>C</span></li>
+	<li style="top:0px;background:blue;"><span>D</span></li>
+	<li style="top:0px;background:pink;"><span>E</span></li>
+	<li style="top:0px;background:green;"><span>F</span></li>
+</ul>
+</body>
+</html>

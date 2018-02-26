@@ -1,0 +1,68 @@
+[ 2016-07-06T20:43:06+08:00 ]EXCEPTION: INSERT INTO sn_goods_attr (`gavalue`,`added`,`type_attr_taid`,`goods_gid`)VALUES(?,?,?,?) ;BindParams:array (
+  0 => '蓝色',
+  1 => '',
+  2 => 8,
+  3 => '147',
+)HY000;1366;Incorrect decimal value: '' for column 'added' at row 1
+[ 2016-07-06T20:46:35+08:00 ]EXCEPTION: INSERT INTO sn_goods_attr (`gavalue`,`added`,`type_attr_taid`,`goods_gid`)VALUES(?,?,?,?) ;BindParams:array (
+  0 => '蓝色',
+  1 => '',
+  2 => 8,
+  3 => '149',
+)HY000;1366;Incorrect decimal value: '' for column 'added' at row 1
+[ 2016-07-06T20:47:04+08:00 ]EXCEPTION: INSERT INTO sn_goods_attr (`gavalue`,`added`,`type_attr_taid`,`goods_gid`)VALUES(?,?,?,?) ;BindParams:array (
+  0 => '蓝色',
+  1 => '',
+  2 => 8,
+  3 => '150',
+)HY000;1366;Incorrect decimal value: '' for column 'added' at row 1
+[ 2016-07-06T20:48:00+08:00 ]EXCEPTION: UPDATE sn_goods_detail SET `img`=?  WHERE gsid= ;BindParams:array (
+  'img' => '',
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ 2016-07-06T21:07:45+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:07:45+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:07:45+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:07:45+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:09:23+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:09:23+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:09:23+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:09:23+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:10:31+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:10:31+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:10:31+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:10:31+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:11:28+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:11:28+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:11:28+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:11:28+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:12:15+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:12:15+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:12:15+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:12:15+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:12:19+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:12:19+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:12:19+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:12:19+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:12:35+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:12:35+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:12:36+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:12:36+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:13:23+08:00 ]NOTICE: Missing argument 1 for Hdphp\Db\Mysql::select()D:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (253).
+[ 2016-07-06T21:13:23+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (259).
+[ 2016-07-06T21:13:23+08:00 ]NOTICE: Undefined variable: sqlD:\Program\www\myProject\suning\Hdphp\Db\Mysql.php (294).
+[ 2016-07-06T21:13:23+08:00 ]EXCEPTION:  ;BindParams:array (
+)42000;1065;Query was empty
+[ 2016-07-06T21:25:59+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\myProject\suning\App\Admin\Controller\GoodsListController.php (52).
+[ 2016-07-06T21:27:28+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\myProject\suning\App\Admin\Controller\GoodsListController.php (52).
+[ 2016-07-06T21:28:34+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\myProject\suning\App\Admin\Controller\GoodsListController.php (52).
+[ 2016-07-06T21:28:52+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\myProject\suning\App\Admin\Controller\GoodsListController.php (52).
+[ 2016-07-06T21:29:01+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\myProject\suning\App\Admin\Controller\GoodsListController.php (52).
+[ 2016-07-06T21:29:07+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\myProject\suning\App\Admin\Controller\GoodsListController.php (52).
+[ 2016-07-06T21:30:36+08:00 ]NOTICE: implode(): Invalid arguments passedD:\Program\www\myProject\suning\App\Admin\Controller\GoodsListController.php (52).

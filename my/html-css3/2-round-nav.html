@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圆形导航</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#all{
+			width: 1200px;
+			height: 50px;
+			margin: 0 auto;
+			margin-top: 200px;
+		}
+		#fa{
+			margin-left: 200px;
+		}
+		#fa ul{
+			position: relative;
+			height: 50px;
+		}
+		#fa ul li,#box{
+			width: 80px;
+			height: 80px;
+			text-align: center;
+			line-height: 80px;
+			border-radius: 50%;
+			color:black; 
+			list-style: none;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		#fa ul li:nth-of-type(1){
+			background: #008B8C;
+		}
+		#fa ul li:nth-of-type(2){
+			background: #01178E;
+		}
+		#fa ul li:nth-of-type(3){
+			background: #0433FF;
+		}
+		#fa ul li:nth-of-type(4){
+			background: #FF2600;
+		}
+		#fa ul li:nth-of-type(5){
+			background: pink;
+		}
+		#fa ul li:nth-of-type(6){
+			background: #84CDFC;
+		}
+		#fa ul li:nth-of-type(7){
+			background: #FED835;
+		}
+		#box{
+			background: #006500;
+			cursor: pointer;
+		}
+		#box:hover{
+			transition:all 1s;
+			transform: rotate(1080deg);
+		}
+
+
+
+		/*第二个设置开始*/
+		#son{
+			width: 1200px;
+			height: 50px;
+			margin: 0 auto;
+			position: relative;
+			margin-left: 700px;
+		}
+		#son span,.ninety{
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			line-height: 100px;
+			border-radius: 50%;
+			color:black; 
+			font-weight: bold;
+			list-style: none;
+			position: absolute;
+			transition: all 1s;
+			left: 0;
+			top: 0;
+		}
+		#son span:nth-of-type(1){
+			background: red;
+		}
+		#son span:nth-of-type(2){
+			background: yellow;
+		}
+		#son span:nth-of-type(3){
+			background: blue;
+		}
+		#son span:nth-of-type(4){
+			background: green;
+		}
+		#son span:nth-of-type(5){
+			background: purple;
+		}
+		#son span:nth-of-type(6){
+			background: orange;
+		}
+		#son span:nth-of-type(7){
+			background: grey;
+		}
+		#son .ninety{
+			background: gold;
+			cursor: pointer;
+		}
+		#son .ninety:hover{
+			transition: all 1s;
+			transform: rotate(720deg);
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="all">
+		<div id="fa">
+			<ul>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>LINUX</li>
+				<li>MYSQL</li>
+				<li>THINKPHP</li>
+				<li>JS</li>
+				<li>AJAX</li>
+				<div id="box">PHP</div>
+			</ul>
+		</div>
+	</div>
+	<div id="son">
+		<nav>
+			<span>赞</span>
+			<span>可敬</span>
+			<span>文艺青年</span>
+			<span>k歌</span>
+			<span>静待缘分</span>
+			<span>电源</span>
+			<span>各种宅</span>
+			<p class="ninety">90后</p>
+		</nav>
+	</div>
+	<script type="text/javascript">
+		var a = function(){
+			// 抓取所有的li
+			var lis = document.getElementsByTagName('li');
+			var box = document.getElementById('box');
+			// li的个数
+			var num = lis.length;
+			//角度
+			var D = 360/num;
+			// 设置圆的半径
+			var r = 150;
+			// 控制散开,回收
+			var c = 0;
+			// 控制在运动的时候不能再次点击
+			var a = 0;
+			var timer = num +'000';
+			box.onclick = function(){
+				if(a == 1) return;
+				setTimeout(function(){
+					a = 0;
+				},timer);
+				a = 1;
+				if(c == 0){
+					for (var i = 0; i <num; i++) {
+						// 计算弧度
+						var Q = Math.PI/180*D*i;
+						// 计算x,y的值
+						var x = r*Math.sin(Q);
+						var y = r*Math.cos(Q);
+						lis[i].style.left = x + 'px';
+						lis[i].style.top = y + 'px';
+						// 延时动画  - --- 注意  空 一格
+						lis[i].style.transition = "all 1s "+i+'s';
+						lis[i].style.transform = 'rotateY(1080deg)';
+						c = 1;
+					}
+				}else{
+					for (var i = 0; i < num; i++) {
+						lis[i].style.left = '0px';
+						lis[i].style.top = '0px';
+						// 延时动画  可以不写
+//						lis[i].style.transition = 'all 1s '+i+'s';
+						lis[i].style.transform = 'rotateY(0deg)';
+						c = 0;
+					};
+				}
+			}
+		}
+		a();
+		//第二个点击事件
+		var b = function(){
+			// 抓取所有的span
+			var spans = document.getElementsByTagName('span');
+			var ninety = document.getElementsByClassName('ninety')[0];
+			// span的个数
+			var len = spans.length;
+			// 角度
+			var rotate = 360/len;
+			// 圆的半径
+			var r = 150;
+			// 控制发散,回收
+			var c = 0;
+			ninety.onclick = function(){
+				if(c ==0){
+					for (var i =0; i <len; i++) {
+						// 计算弧度
+						var q = Math.PI/180*rotate*i;
+						// 计算x,y的值
+						var x = r*Math.sin(q);
+						var y = r*Math.cos(q);
+						spans[i].style.left = x + 'px';
+						spans[i].style.top = y + 'px';
+
+						spans[i].style.transform = 'rotate(1080deg)';
+						c = 1;
+					};
+				}else{
+					for(var i=0;i<len;i++){
+						spans[i].style.left = '0px';
+						spans[i].style.top = '0px';
+
+						spans[i].style.transform = 'rotate(0deg)';
+						c = 0;
+					}
+				}
+			}
+		}
+		b();
+	</script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/44.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015406s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/41.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015098s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/js/jquery-1.8.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018662s ]
+ERR: 无法加载模块:App
+
+�:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/css/goods.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015356s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/%7B$goodsData['img']%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014632s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/45.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/46.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/34.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/36.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:18+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/44.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001778s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/%7B$goodsData['img']%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/css/goods.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/45.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/41.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/34.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/36.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/46.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/js/jquery-1.8.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/41.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/%7B$goodsData['img']%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/45.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/46.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005410s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/34.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:19+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/36.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/css/goods.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/44.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/41.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/45.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/%7B$goodsData['img']%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/46.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/34.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载模块:App
+
+[ 2016-07-08T17:18:23+08:00 ] 127.0.0.1 /myProject/tpzol/App/Home/View/Content/__PUBLIC__/Home/images/35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:App
+

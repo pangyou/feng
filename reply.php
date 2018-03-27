@@ -4,9 +4,11 @@
 // SELECT id FROM user WHERE phone in('131','139');
 //2,删除重复数据,确保只有一条
 //DELETE FROM user WHERE id in(SELECT id FROM user GROUP BY name HAVING count(*)>1)
+//答案?
+// 
 //3,每天3点执行一次 run.php 
 // 1,  crontab -e 
-// 2,  * 03 * * *   php run.php                  //分 时 日 月 周
+// 2,  00 03 * * *   php run.php                  //分 时 日 月 周
 // 3,   :wq
 
 //4,求一个整数数组中 和最大 的连续 子数组
@@ -14,11 +16,29 @@
 //思路 -- 找到最大和,最大和子数组开始下标,最大和子数组结束下标
 //具体代码
 $arr = [1,2,-4,4,10,-3,4,-5,1];
+// $arr = [-5,-2,0,-3,-1];
+// 假如数组 都为 负数 [-1,-2,-4,-3,-1]
 $result = get_max_arr($arr);
-// print_r($result);
+p($result);
+function get($arr){
+	$curSum = $arr[0];
+	//假设第一个值为最大和
+	$maxSum = $arr[0];
+	for($i = 1; $i < count($arr); $i++){
+		if($curSum > 0) {
+			$curSum += $arr[$i];
+		}else {
+			$curSum = $arr[$i];
+		}
+		if($curSum > $maxSum){
+			$maxSum = $curSum;
+		} 
+	}
+	return $maxSum;
+}
 function get_max_arr($arr){
 	//最大和
-	$max_num = '';
+	$max_num = $arr[0];
 	//最大和子数组开始下标
 	$max_i = '';
 	//最大和子数组结束下标
@@ -48,6 +68,14 @@ function get_max_arr($arr){
 //3,把相关配置修改为正式环境,然后调试.
 
 
-
+function p($var){
+	header("Content-type: text/html; charset=utf-8"); 
+	echo '<pre style="padding: 5px;
+		background: #ccc;
+		border: 1px solid grey;
+		border-radius: 5px;">';
+    print_r($var);
+    echo '</pre>';
+}
 
  ?>
